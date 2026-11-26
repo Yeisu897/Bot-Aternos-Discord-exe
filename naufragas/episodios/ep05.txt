@@ -1,0 +1,64 @@
+titulo: La tormenta
+
+fondo: campamento_tormenta
+efecto: lluvia apagado
+musica: accion
+ambiente: lluvia viento
+entra: kirane der
+entra: kitzuki izq
+relampago
+temblor
+narrador: A medianoche, el viento se convirtió en un rugido. El refugio empezó a crujir.
+kirane[sorpresa]: ¡Despierten! ¡El techo se está cayendo!
+sfx: golpe
+temblor
+kitzuki[miedo]: ¡Agárrense de algo!
+relampago
+kirane[preocupada]: ¿Yei? ¡¿Yei, dónde estás?!
+kitzuki[nerviosa]: ¡Estaba a mi lado hace un segundo!
+kirane[miedo]: ¡No está! ¡El viento debió arrastrarla!
+kitzuki[seria]: Kirane, espera. Si sales con esta tormenta...
+kirane[enojada]: ¡No pienso dejarla sola allá afuera! ¡Quédate aquí y cuida la bengala!
+sale: kirane
+sfx: pasos
+kitzuki[miedo]: ¡Kirane! ¡Idiota, vuelve!
+fundido
+
+fondo: selva_noche
+efecto: lluvia
+musica: tension
+ambiente: lluvia viento
+entra: kirane der
+kirane[preocupada]: ¡Yeeei! ¡Respóndeme! ¡Yeeei!
+narrador: En la oscuridad de la selva, Kirane apenas podía ver sus propias manos.
+kirane[triste]: No otra vez... no voy a perder a nadie más...
+pausa: 1
+efecto: lluvia brillo
+musica: misterio
+narrador: Entonces lo vio. Una pequeña luz morada, temblando entre los árboles.
+kirane[sorpresa]: ¿Esa luz...?
+sfx: pasos
+fundido
+
+fondo: cueva
+efecto: brillo
+ambiente: cueva lluvia
+entra: yei centro sentada
+entra: kirane der
+yei[miedo]: ¿K-Kirane? ¿Eres tú?
+kirane[preocupada]: ¡Yei! ¡¿Estás bien?! ¡¿Estás herida?!
+yei[triste]: Me caí en la oscuridad y corrí sin saber a dónde... y encontré esta cueva.
+yei[nerviosa]: Y el amuleto empezó a brillar otra vez. Como si quisiera que alguien me encontrara.
+kirane[seria]: Pues funcionó. Lo vi desde lejos.
+pose: yei base
+kirane[triste]: No vuelvas a desaparecer así. Casi me muero del susto.
+yei[timida]: Kirane... ¿estás llorando?
+kirane[enojada]: ¡Es la lluvia! ¡Es solo la lluvia!
+yei[feliz]: Gracias por venir por mí.
+efecto: nada
+pausa: 0.5
+kirane[pensativa]: Esta cueva está seca. Mañana traeremos a Kitzuki. Podría ser un mejor refugio.
+musica: misterio
+narrador: Ninguna de las dos notó las marcas talladas en la pared del fondo. Marcas con forma de rosa.
+sfx: sting
+pausa: 1

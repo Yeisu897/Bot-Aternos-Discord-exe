@@ -1,0 +1,66 @@
+titulo: Agua
+
+fondo: playa_amanecer
+musica: calma
+ambiente: olas
+entra: yei centro sentada
+narrador: Segundo día en la isla. El sol salió temprano, y con él, la sed.
+yei[cansada]: Tengo la boca seca como el papel...
+entra: kirane der
+kirane[molesta]: Ya no aguanto más. Voy a tomar agua del mar.
+pose: yei base
+entra: kitzuki izq
+kitzuki[enojada]: ¡Ni se te ocurra! El agua salada te deshidrata más rápido. Te mataría.
+kirane[enojada]: ¡Entonces dime qué hacemos, genio! ¡No puedo beber teorías!
+kitzuki[seria]: Hay mucha vegetación en esta isla. Eso significa que hay agua dulce en alguna parte. Hay que entrar a la selva.
+yei[nerviosa]: ¿A la selva? ¿Con bichos y... cosas?
+kitzuki[picara]: Los bichos te tienen más miedo a ti, Yei. Probablemente.
+yei[miedo]: ¡¿Probablemente?!
+fundido
+
+fondo: selva
+musica: misterio
+ambiente: selva
+narrador: La selva era espesa, húmeda y ruidosa. Cada sonido parecía una amenaza.
+sfx: rama
+yei[miedo]: ¡Kyaa! ¡Algo se movió ahí!
+kirane[risa]: Era un pájaro, miedosa. Ven, agárrate de mi brazo.
+yei[timida]: G-gracias, Kirane.
+kitzuki[pensativa]: Escuchen. Ese ruido de fondo... no es viento.
+kirane[sorpresa]: ¡Es agua! ¡Agua corriendo!
+musica: alegre
+sfx: pasos
+fundido
+
+fondo: cascada
+ambiente: selva
+narrador: Detrás de una cortina de helechos, encontraron una cascada de agua cristalina.
+yei[risa]: ¡Agua! ¡Agua de verdad! ¡Estamos salvadas!
+kirane[risa]: ¡Jajaja! ¡Primero yo!
+sfx: chapuzon
+temblor
+kitzuki[nerviosa]: ¡Kirane! ¡Al menos fíjate si es profunda antes de saltar!
+kirane[feliz]: ¡Está deliciosa! Vamos, cuatro ojos, métete.
+kitzuki[avergonzada]: No sé nadar... muy bien.
+kirane[sorpresa]: ¿En serio? ¿La sabelotodo no sabe nadar?
+kitzuki[enojada]: ¡Nadie es perfecto! Y si se lo dices a alguien, te arrojo un coco.
+yei[risa]: ¡Jajaja! Ustedes dos se llevan mejor de lo que creen.
+pausa: 0.5
+musica: misterio
+kirane[sorpresa]: Oigan... ¿qué es eso de allá, entre las rocas?
+narrador: Atascado entre las piedras, había un bote salvavidas del Aurora Celeste. Vacío.
+kitzuki[seria]: Nadie adentro. Pero mira esto: una caja de emergencia.
+kitzuki[lentes]: Un cuchillo, una lona, una cuerda... y una pistola de bengalas. Con una sola bengala.
+kirane[seria]: Una sola oportunidad de pedir ayuda. Hay que guardarla como un tesoro.
+yei[triste]: ¿Y la gente que iba en este bote? ¿Dónde está?
+pausa: 1
+kitzuki[pensativa]: No lo sé, Yei. No lo sé.
+pausa: 0.5
+efecto: brillo
+sfx: brillo
+yei[sorpresa]: ¡Ah!
+efecto: nada
+kitzuki[seria]: Yei. Vi una luz morada en tu pecho. ¿Qué es lo que escondes?
+yei[nerviosa]: ¡N-nada! Debe ser el reflejo del agua.
+sfx: sting
+pausa: 1

@@ -1,0 +1,55 @@
+titulo: Sacrificio
+
+fondo: cueva
+musica: triste
+ambiente: cueva
+entra: yei centro sentada
+entra: kitzuki izq
+entra: kirane der
+narrador: La tormenta pasó. Pero dejó la isla destruida, y a Yei sin poder caminar.
+yei[seria]: Escuchen. Tienen que ir sin mí. Llévense el amuleto y suban a la cima.
+kirane[enojada]: ¡Ni lo sueñes!
+yei[triste]: Es nuestra única oportunidad. Si no suben mañana, habrá que esperar otro mes. Y quizás otro. Y otro.
+kitzuki[seria]: Yei tiene razón en algo: hay que subir mañana. Pero se equivoca en lo demás.
+kitzuki[picara]: Kirane es la persona más fuerte que conozco. Te puede cargar.
+kirane[feliz]: Por supuesto que puedo. Súbete a mi espalda, jefa.
+yei[sorpresa]: ¡Pero es una montaña entera!
+kirane[seria]: Y yo soy salvavidas. Nadie se queda atrás. Esa es la regla número uno.
+yei[triste]: Chicas...
+fundido
+
+fondo: selva
+musica: esperanza
+ambiente: selva
+entra: kirane centro
+entra: kitzuki izq
+narrador: Partieron al amanecer. Kirane cargaba a Yei. Kitzuki iba adelante, abriendo camino con el cuchillo.
+kirane[cansada]: Uf... uf... ¿falta mucho, cerebrito?
+kitzuki[cansada]: Según el mapa del diario... la mitad. Tal vez.
+yei[preocupada]: Kirane, déjame caminar un poco. Te vas a lastimar.
+kirane[molesta]: Silencio, pasajera. Disfrute del viaje.
+fundido
+
+fondo: cumbre_noche
+musica: romance
+ambiente: viento noche
+entra: yei centro sentada
+entra: kirane der sentada
+entra: kitzuki izq
+narrador: Al caer la noche, se detuvieron en una saliente de roca, a poca distancia de la cima.
+kitzuki[nerviosa]: No miren hacia abajo. Yo cometí el error de mirar. Le tengo pánico a las alturas.
+kirane[sorpresa]: ¿Y no dijiste nada en todo el camino?
+kitzuki[timida]: Ustedes no se quejaron de nada. No iba a ser yo la primera.
+pose: kitzuki sentada
+yei[timida]: Oigan... si mañana nos rescatan... ¿qué harán?
+kirane[timida]: Abrazar a Teo hasta que se queje. Y luego... quiero estudiar para ser rescatista de verdad.
+kitzuki[timida]: Yo quería ser investigadora para estar sola con mis libros. Ahora creo que quiero estudiar islas. Ecosistemas aislados.
+kirane[picara]: Para volver aquí, ¿verdad?
+kitzuki[sonrojada]: ...Tal vez. Con compañía.
+yei[feliz]: Yo quiero llevarle a la abuela su diario. Y decirle que no estaba sola. Que ahora somos tres.
+pausa: 1
+kirane[seria]: Mañana. Mañana volvemos a casa.
+kitzuki[seria]: Mañana.
+yei[feliz]: Mañana.
+sfx: sting
+pausa: 1.5

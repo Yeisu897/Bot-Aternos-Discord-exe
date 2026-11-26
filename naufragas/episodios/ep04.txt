@@ -1,0 +1,60 @@
+titulo: Refugio
+
+fondo: playa_tormenta
+musica: tension
+ambiente: lluvia viento
+efecto: lluvia
+entra: kirane der
+entra: kitzuki izq
+entra: yei centro
+sfx: trueno
+narrador: La lluvia llegó de golpe. En minutos, el fuego que tanto les costó se apagó.
+yei[triste]: No... nuestro fuego...
+kirane[enojada]: ¡Te dije que hiciéramos el refugio primero! ¡Te lo dije!
+kitzuki[enojada]: ¡Y yo te dije que sin fuego no sobrevivíamos la noche! ¡No soy adivina!
+kirane[enojada]: ¡Siempre tienes una excusa! ¡Hablas y hablas, pero no haces nada!
+kitzuki[enojada]: ¡Y tú solo corres y gritas como un mono!
+temblor
+yei[enojada]: ¡YA BASTA!
+pausa: 1
+yei[triste]: Estamos empapadas, tenemos frío y miedo. Pelear no va a secar nada.
+kirane[molesta]: ...Tch.
+kitzuki[avergonzada]: ...Tiene razón.
+yei[seria]: Kirane, tú eres la más fuerte. Trae ramas grandes. Kitzuki, tú sabes de plantas. Busca hojas que no dejen pasar el agua.
+yei[feliz]: Y yo ataré todo con la cuerda del bote. ¿De acuerdo?
+kirane[sorpresa]: ¿Desde cuándo das órdenes tú, Yei?
+yei[timida]: Desde que ustedes dos no paran de pelear.
+fundido
+
+fondo: campamento_tormenta
+efecto: lluvia apagado
+ambiente: lluvia
+musica: accion
+narrador: Trabajaron bajo la lluvia durante horas, cargando ramas, tejiendo hojas, atando nudos.
+kirane[enojada]: ¡Esta rama pesa una tonelada! ¡Ayúdenme!
+kitzuki[nerviosa]: ¡Hojas de palma! Si las ponemos encimadas, como tejas, el agua resbala.
+yei[nerviosa]: ¡Se me resbala la cuerda! ¡Kirane, sostén aquí!
+sfx: golpe
+kirane[risa]: ¡Listo! ¡Ya está firme!
+fundido
+
+fondo: campamento_noche
+efecto: apagado
+musica: calma
+ambiente: lluvia noche
+entra: yei centro sentada
+entra: kirane der sentada
+entra: kitzuki izq sentada
+narrador: Esa noche, por primera vez, durmieron secas.
+kirane[timida]: Oye, Kitzuki... lo del mono. Me lo merecía.
+kitzuki[timida]: Y yo no hago nada... eso no era cierto, pero tampoco del todo falso.
+kirane[sorpresa]: ¿Eso fue una disculpa?
+kitzuki[sonrojada]: Fue una observación científica. No te acostumbres.
+yei[risa]: Jijiji. Buenas noches, equipo.
+kirane[feliz]: Buenas noches, jefa Yei.
+yei[sorpresa]: ¡¿Jefa?!
+pausa: 1
+narrador: Pero la tormenta apenas estaba comenzando.
+relampago
+sfx: sting
+pausa: 1

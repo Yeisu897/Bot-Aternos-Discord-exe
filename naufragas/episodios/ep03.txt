@@ -1,0 +1,58 @@
+titulo: Fuego
+
+fondo: playa_noche
+musica: triste
+ambiente: olas viento
+entra: yei centro sentada
+entra: kirane der sentada
+entra: kitzuki izq sentada
+narrador: La segunda noche fue la más fría. Sin fuego, el viento del mar atravesaba la ropa mojada.
+yei[cansada]: T-tengo mucho frío...
+kirane[preocupada]: Acérquense. Si estamos juntas, conservamos el calor.
+kitzuki[avergonzada]: No es que yo quiera abrazarte, ¿eh? Es pura termodinámica.
+kirane[risa]: Claro, claro. Termodinámica.
+pausa: 1
+yei[triste]: ¿Saben? Iba en ese barco para visitar a mi abuela Marina. Hace años que no la veo.
+yei[timida]: Ella me dio este amuleto cuando era niña. Me dijo que me protegería en el mar.
+kitzuki[pensativa]: El amuleto que brilla, ¿verdad?
+yei[nerviosa]: Debió ser mi imaginación. Las piedras no brillan solas.
+kitzuki[seria]: Exacto. Por eso me interesa.
+yei[feliz]: ¿Y tú, Kirane? ¿Tienes familia esperándote?
+kirane[triste]: Un hermano menor. Teo. Tiene nueve años.
+kirane[triste]: Le prometí que volvería con un regalo del viaje.
+pausa: 1
+kirane[enojada]: Y voy a volver. Aunque tenga que nadar hasta el continente.
+narrador: Esa noche nadie durmió de verdad. Pero por primera vez, ninguna se sintió sola.
+fundido
+
+fondo: campamento_dia
+efecto: apagado
+musica: calma
+ambiente: olas
+entra: kitzuki centro
+entra: yei izq
+entra: kirane der
+kitzuki[lentes]: Bien. Hoy hay sol fuerte. Es nuestra oportunidad de hacer fuego.
+kirane[molesta]: Ya lo intenté frotando palos tres horas. Solo conseguí ampollas.
+kitzuki[picara]: Porque usaste fuerza, no cerebro. Observa.
+narrador: Kitzuki se quitó los lentes y los inclinó hacia el sol, concentrando la luz sobre hojas secas.
+yei[sorpresa]: ¡Está saliendo humo!
+kitzuki[nerviosa]: No te muevas... no respires... un poco más...
+sfx: fuego_on
+efecto: fuego
+musica: alegre
+ambiente: olas fuego
+yei[risa]: ¡Fuego! ¡Kitzuki, eres un genio!
+kirane[sorpresa]: Vaya... tengo que admitirlo. Eso fue increíble.
+kitzuki[sonrojada]: N-no fue nada. Física de secundaria.
+kirane[feliz]: Oye, cuatro ojos. Perdón por lo de ayer. Eres útil de verdad.
+kitzuki[timida]: ...Tú tampoco eres tan inútil, cabeza de alga.
+kirane[enojada]: ¡¿Cabeza de qué?!
+yei[risa]: ¡Jajaja! Ya tenemos agua y fuego. ¡Somos imparables!
+pausa: 0.5
+musica: tension
+relampago
+narrador: Pero en el horizonte, unas nubes negras avanzaban lentamente hacia la isla.
+kitzuki[preocupada]: Esas nubes... vienen hacia aquí.
+sfx: sting
+pausa: 1

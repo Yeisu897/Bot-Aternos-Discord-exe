@@ -1,0 +1,57 @@
+titulo: La verdad del amuleto
+
+fondo: cabana
+musica: misterio
+ambiente: selva
+entra: kitzuki centro
+entra: yei izq
+entra: kirane der
+efecto: brillo
+kitzuki[lentes]: Escuchen. El centro del amuleto es un cristal fosforescente. Absorbe la luz del sol de día, y la suelta de noche.
+kitzuki[seria]: Y en las rocas de esta isla hay vetas del mismo mineral. Tu abuela lo sacó de aquí.
+yei[sorpresa]: ¿Entonces no es magia?
+kitzuki[pensativa]: Es geología. Aunque no explica por qué brilla más fuerte justo cuando estás en peligro.
+kitzuki[timida]: Eso... no lo sé. Y por primera vez, no me molesta no saberlo.
+efecto: nada
+kirane[pensativa]: Bien, pero ¿cómo nos lleva a casa una piedra que brilla?
+kitzuki[picara]: No es solo una piedra. Por delante es cristal, pero por detrás está pulido como un espejo.
+kitzuki[seria]: Con un espejo y el sol, puedes enviar destellos a kilómetros de distancia. Se llama heliógrafo.
+yei[sorpresa]: ¡El sol y la rosa! ¡Eso decía el diario!
+kirane[risa]: ¡Una bengala que nunca se acaba! ¡Kitzuki, eres un genio otra vez!
+kitzuki[sonrojada]: Lo sé. Pero gracias.
+pausa: 1
+sfx: rama
+kirane[sorpresa]: Oigan... algo se cayó del techo. Es un papel doblado.
+yei[sorpresa]: ¡Es la página que faltaba del diario!
+yei[seria]: Los barcos de carga pasan cerca de la isla cada luna llena. Desde la cima del monte se ve toda la ruta.
+yei[seria]: Desde allí, con el sol de la mañana, la rosa puede hablar con los barcos.
+pausa: 1
+musica: esperanza
+kitzuki[pensativa]: La última luna llena fue la noche del barco que perdimos. Eso significa que la próxima es en...
+kitzuki[sorpresa]: ¡Cinco días! ¡Faltan cinco días!
+kirane[feliz]: Entonces tenemos cinco días para preparar todo y subir a esa montaña.
+yei[risa]: ¡Vamos a volver a casa!
+fundido
+
+fondo: campamento_atardecer
+efecto: fuego
+musica: alegre
+ambiente: olas fuego
+entra: yei centro sentada
+entra: kitzuki izq sentada
+entra: kirane der sentada
+narrador: Pasaron los siguientes días preparando cuerdas, agua y leña para una gran hoguera en la cima.
+kirane[feliz]: Cuando volvamos, lo primero que haré es comer una hamburguesa gigante.
+kitzuki[timida]: Yo quiero una ducha caliente. De tres horas. Con champú de verdad.
+yei[timida]: Yo quiero abrazar a la abuela y decirle que encontré su isla.
+pausa: 1
+kirane[triste]: Oigan... ¿y después? Cuando volvamos, cada una a su ciudad...
+kitzuki[triste]: ...No lo había pensado.
+yei[feliz]: Pues no nos vamos a separar. Eso no está en discusión.
+kitzuki[timida]: ...Me parece un plan razonable.
+pausa: 1
+musica: tension
+relampago
+narrador: Pero la noche antes de partir, el cielo se volvió negro otra vez. Esta vez, mucho peor.
+sfx: sting
+pausa: 1.5

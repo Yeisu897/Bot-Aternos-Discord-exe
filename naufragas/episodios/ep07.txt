@@ -1,0 +1,58 @@
+titulo: Sola
+
+fondo: playa_atardecer
+musica: triste
+ambiente: olas viento
+entra: kirane centro brazos
+narrador: Al otro lado de la isla, Kirane armó un pequeño campamento entre las rocas.
+kirane[feliz]: ¡Ja! Tres peces en una mañana. ¿Quién necesita a la reina de los cocos?
+pausa: 1
+kirane[normal]: ...
+kirane[triste]: Es raro comer sin escuchar a Yei decir que todo está delicioso.
+kirane[triste]: Y sin que Kitzuki explique por qué el pescado tiene espinas.
+pose: kirane sentada
+musica: romance
+kirane[triste]: Teo... si me vieras ahora. Tu hermana mayor, peleando con todos otra vez.
+kirane[triste]: Mamá siempre decía que yo tenía el corazón grande y la boca más grande todavía.
+pausa: 1
+kirane[timida]: Quizás tenía razón.
+fundido
+
+fondo: cueva
+musica: calma
+ambiente: cueva
+entra: yei der
+entra: kitzuki izq sentada
+narrador: Mientras tanto, en la cueva, Yei y Kitzuki llevaban todo el día sin hablarse.
+yei[triste]: Kitzuki... ¿podemos hablar?
+kitzuki[timida]: ...Sí.
+kitzuki[triste]: Tenías razón. Las personas no son ecuaciones. Nunca supe tratar con ellas.
+kitzuki[triste]: Desde niña, los libros eran más fáciles. Los libros no se van cuando dices algo mal.
+yei[triste]: Kitzuki...
+kitzuki[avergonzada]: Soy dura porque tengo miedo. Si las cosas salen mal y no lo vi venir... sería mi culpa.
+pose: kitzuki base
+kitzuki[triste]: Y no quiero que nadie más muera por mi culpa.
+yei[sorpresa]: ¿Nadie... más?
+kitzuki[seria]: El bote salvavidas. Lo vi esa noche, desde la cubierta. Pude haber gritado para que nos esperaran.
+kitzuki[triste]: Pero me congelé. Y se fueron sin nosotras.
+pausa: 1
+yei[triste]: No fue tu culpa. Nadie puede pensar con claridad en medio de un naufragio.
+yei[feliz]: Además, si estás aquí, es porque tenías que estar con nosotras.
+kitzuki[timida]: ...Eres demasiado amable, ¿sabes?
+yei[risa]: Mi abuela dice que es mi superpoder.
+pausa: 0.5
+yei[feliz]: Mañana iré a buscar a Kirane. Voy a revisar el fondo de la cueva, quizás hay otra salida que lleve al otro lado.
+kitzuki[preocupada]: Ten cuidado. Esa parte es muy oscura.
+fundido
+
+fondo: playa_noche
+musica: tension
+ambiente: olas
+entra: kirane centro
+narrador: A la mañana siguiente, mientras Kirane pescaba, un grito atravesó la isla.
+sfx: caida
+yei: ¡Kyaaaaa! ¡Ayúdenme!
+kirane[sorpresa]: ¡Esa es Yei!
+temblor
+sfx: sting
+pausa: 1

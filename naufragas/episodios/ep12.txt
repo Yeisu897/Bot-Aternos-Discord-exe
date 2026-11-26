@@ -1,0 +1,53 @@
+titulo: El barco
+
+fondo: playa_dia
+musica: calma
+ambiente: olas
+entra: kitzuki izq
+entra: yei centro
+narrador: Mientras debatían qué significaba el árbol rojo, algo apareció en el horizonte.
+kitzuki[pensativa]: Árbol rojo... quizás sea un tipo de madera, o un árbol que florece...
+efecto: barco
+pausa: 1
+yei[sorpresa]: ...Kitzuki. Mira allá. En el mar.
+kitzuki[sorpresa]: Eso es... ¡Eso es un barco!
+musica: accion
+yei[risa]: ¡UN BARCO! ¡¡UN BARCO DE VERDAD!!
+kitzuki[nerviosa]: ¡La bengala! ¡¿Dónde está la bengala?!
+yei[miedo]: ¡La tiene Kirane! ¡Kirane está pescando en las rocas!
+sale: yei
+sfx: pasos
+kitzuki[nerviosa]: ¡KIRANEEE! ¡LA BENGALA! ¡RÁPIDO!
+fundido
+
+fondo: playa_dia
+entra: kirane der
+entra: yei centro
+entra: kitzuki izq
+kirane[sorpresa]: ¡Aquí! ¡La tengo! ¡Ya voy!
+kitzuki[nerviosa]: ¡Espera! Está demasiado lejos todavía. Si disparas ahora, no la verán. ¡Espera a que se acerque!
+kirane[enojada]: ¡¿Y si no se acerca?! ¡¿Y si se va?!
+kitzuki[nerviosa]: ¡Solo tenemos una! ¡Hay que esperar el momento justo!
+yei[nerviosa]: ¡Está girando! ¡Se está alejando!
+kirane[enojada]: ¡No voy a esperar más!
+sfx: fuego_on
+destello
+narrador: La bengala subió al cielo, roja y brillante. Pero el sol del mediodía la hizo casi invisible.
+pausa: 1.5
+musica: triste
+kitzuki[triste]: ...No la vieron.
+yei[triste]: No... no, no, no. ¡Vuelvan! ¡Estamos aquí! ¡AQUÍ!
+temblor
+yei[triste]: ¡Por favor!
+efecto: nada
+pausa: 2
+narrador: El barco desapareció en el horizonte. Y con él, su única bengala.
+kirane[triste]: Fue mi culpa. Me apresuré. Kitzuki tenía razón.
+kitzuki[triste]: No... si hubieras esperado, quizás se habría ido igual. Nadie podía saberlo.
+kirane[enojada]: ¡Deja de ser amable! ¡Arruiné nuestra única oportunidad!
+pose: kirane sentada
+kirane[triste]: Teo... lo siento. Lo siento tanto.
+pausa: 1
+narrador: Esa noche nadie habló. El fuego se fue apagando, y nadie se levantó a avivarlo.
+sfx: sting
+pausa: 1.5

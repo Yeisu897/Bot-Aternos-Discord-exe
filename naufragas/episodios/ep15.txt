@@ -1,0 +1,49 @@
+titulo: La cabaña
+
+fondo: cabana
+musica: misterio
+ambiente: selva
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+narrador: La cabaña era vieja, pero seguía en pie. Alguien la había construido con mucho cuidado.
+kirane[sorpresa]: Alguien vivió aquí. Hace mucho tiempo.
+kitzuki[lentes]: La madera tiene al menos treinta años. Estas uniones están hechas a mano.
+yei[timida]: Abuela... ¿esta era tu casa?
+sfx: pasos
+fundido
+
+fondo: cabana
+musica: romance
+ambiente: selva
+entra: yei centro sentada
+entra: kitzuki izq
+entra: kirane der
+narrador: Adentro encontraron una cama de hojas secas, utensilios de coco, y un cuaderno protegido en una caja de lata.
+yei[sorpresa]: Es un diario... Diario de Marina. Isla sin nombre.
+kitzuki[seria]: Léelo, Yei.
+yei[triste]: Día uno. El barco se hundió. Estoy sola. Tengo diecinueve años y mucho miedo.
+yei[triste]: Día cuarenta. Hice amistad con los monos. Uno me roba la comida. Lo llamo Capitán.
+kirane[sorpresa]: ¡¿Capitán?! ¡Como nuestro mono!
+kitzuki[pensativa]: Los capuchinos viven unos cuarenta años... quizás es descendiente del original.
+yei[risa]: ¡Jijiji! ¡Una dinastía de monos ladrones!
+pausa: 1
+yei[triste]: Día ciento ochenta. Tallé rosas en la cueva para no perder la cordura. Si alguien llega después de mí, que sepa que no está solo.
+kitzuki[triste]: Las rosas de la cueva... las hizo ella.
+yei[triste]: Día trescientos. Hoy entendí el secreto del amuleto. El sol y la rosa me llevarán a casa.
+pausa: 1
+kirane[sorpresa]: ¿El sol y la rosa? ¿Qué significa?
+yei[triste]: La siguiente página está arrancada.
+kitzuki[enojada]: ¡No puede ser! ¡Justo la parte importante!
+pausa: 1
+musica: esperanza
+yei[triste]: Mi abuela estuvo aquí sola. Un año entero, sola.
+yei[feliz]: Pero nosotras somos tres. Si ella pudo, nosotras también.
+kirane[feliz]: Así se habla.
+kitzuki[pensativa]: El sol y la rosa... Yei, ¿me prestas el amuleto?
+efecto: brillo
+sfx: brillo
+kitzuki[sorpresa]: El centro de la rosa... no es piedra. Es cristal pulido. Como un espejo.
+kitzuki[sorpresa]: Oh. Oh, por todos los cielos. ¡Ya entiendo cómo brilla!
+sfx: revelacion
+pausa: 1.5

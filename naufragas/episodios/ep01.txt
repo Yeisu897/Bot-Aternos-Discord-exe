@@ -1,0 +1,71 @@
+titulo: El naufragio
+
+fondo: playa_tormenta
+musica: tension
+ambiente: lluvia viento
+efecto: lluvia
+narrador: La noche del cuatro de agosto, el crucero Aurora Celeste desapareció en medio de una tormenta.
+relampago
+narrador: De sus seiscientos pasajeros, solo tres despertarían en una isla que no aparece en ningún mapa.
+fundido
+
+fondo: playa_dia
+efecto: nada
+musica: calma
+ambiente: olas
+pausa: 1
+entra: yei centro
+yei[cansada]: Mmm... ¿dónde estoy? Mi cabeza da vueltas.
+yei[sorpresa]: ¡Arena! ¿Una playa? ¡¿Dónde está el barco?!
+zoom: 1.2 centro
+yei[miedo]: ¡Hola! ¡¿Hay alguien?! ¡Por favor, que alguien responda!
+zoom: 1
+sfx: pasos
+entra: kirane der
+kirane[enojada]: ¡Deja de gritar! Me vas a reventar los oídos.
+yei[sorpresa]: ¡Una persona! ¡Estás viva! Yo soy Yei. ¿Tú también venías en el Aurora?
+kirane[molesta]: Kirane. Y sí. Trabajaba de salvavidas en la piscina del barco.
+kirane[triste]: Irónico, ¿verdad? No pude salvar a nadie.
+yei[triste]: No digas eso... tú también estás aquí. Eso ya es algo.
+pausa: 0.5
+sfx: rama
+kitzuki[cansada]: ¿Pueden bajar la voz? Algunas intentamos seguir inconscientes.
+entra: kitzuki izq
+kirane[sorpresa]: ¿Y tú de dónde saliste?
+kitzuki[lentes]: De debajo de esa palmera. Kitzuki, estudiante de biología. Mis lentes sobrevivieron, por suerte.
+kitzuki[seria]: Mala noticia, chicas: no veo restos del barco, ni botes, ni humo. Nadie sabe que estamos aquí.
+yei[nerviosa]: P-pero vendrán a buscarnos, ¿no? Los barcos tienen radares, y señales, y...
+kitzuki[pensativa]: Si el barco se hundió lejos, pueden pasar semanas. Hay que pensar en agua, refugio y fuego.
+kirane[molesta]: ¿Y quién te nombró jefa? Yo digo que rodeemos la isla. Seguro hay un pueblo.
+kitzuki[picara]: Claro. Corre bajo el sol sin agua. Te veo desmayada en una hora.
+kirane[enojada]: ¡¿Qué dijiste, cuatro ojos?!
+temblor
+mueve: yei centro
+yei[enojada]: ¡Basta las dos! Si peleamos el primer día, no vamos a durar ni una semana.
+pausa: 0.5
+yei[timida]: Hagamos las dos cosas. Exploramos juntas la costa, y buscamos agua en el camino. ¿Sí?
+kirane[molesta]: Tch. Está bien. Pero solo porque tú lo pides.
+kitzuki[normal]: Razonable. Me gusta esta chica.
+fundido
+
+fondo: playa_atardecer
+musica: triste
+ambiente: olas
+narrador: Caminaron durante horas. No encontraron pueblos, ni caminos, ni personas.
+kirane[triste]: Nada. Absolutamente nada. Es una isla desierta de verdad.
+kitzuki[cansada]: Y sin agua dulce, el tiempo corre en contra nuestra.
+yei[triste]: Mi abuela siempre decía que el mar devuelve lo que se lleva...
+fondo: playa_noche
+musica: misterio
+ambiente: olas noche
+pausa: 1
+sale: kirane
+sale: kitzuki
+narrador: Esa noche, mientras las otras dormían, Yei sintió algo cálido en su pecho.
+efecto: brillo
+sfx: brillo
+zoom: 1.25 centro
+yei[sorpresa]: ¿El amuleto de la abuela... está brillando?
+yei[nerviosa]: ¿Qué es esto? ¿Qué está pasando?
+sfx: sting
+pausa: 1.5

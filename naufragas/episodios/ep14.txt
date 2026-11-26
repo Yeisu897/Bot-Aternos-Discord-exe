@@ -1,0 +1,68 @@
+titulo: Huellas
+
+fondo: campamento_dia
+efecto: apagado
+musica: tension
+ambiente: olas
+entra: kitzuki centro
+entra: kirane der brazos
+entra: yei izq
+kitzuki[seria]: Huellas pequeñas. Cinco dedos. Y faltan cuatro mangos y el cuchillo.
+kirane[preocupada]: ¿Alguien más vive en la isla? ¿Otro náufrago?
+yei[miedo]: ¿Y si es peligroso? ¿Y si nos estuvo observando todo este tiempo?
+kirane[seria]: Esta noche haremos guardia. Si alguien viene, lo atrapamos.
+fundido
+
+fondo: campamento_noche
+efecto: apagado
+musica: misterio
+ambiente: noche
+entra: kirane der sentada
+entra: yei izq sentada
+entra: kitzuki centro sentada
+narrador: Se escondieron detrás del refugio, en silencio, con el fuego apagado.
+yei[nerviosa]: Kirane... tengo miedo.
+kirane[seria]: Shh. Quédate detrás de mí.
+kitzuki[nerviosa]: Si es un asesino escapado, quiero que conste que fue idea de Kirane.
+kirane[molesta]: Anotado, cuatro ojos.
+sfx: rama
+pausa: 1
+musica: tension
+sfx: latido
+kirane[sorpresa]: Ahí. Algo se mueve junto a la comida.
+sfx: latido
+kirane[enojada]: ¡AHORA!
+temblor
+sfx: golpe
+pausa: 1
+musica: alegre
+sfx: comico
+kirane[sorpresa]: ...¿Un mono?
+yei[sorpresa]: ¡Es un monito! ¡Con nuestro cuchillo en la mano!
+kitzuki[risa]: ¡Jajaja! ¡El temible asesino de la isla es un mono capuchino!
+kirane[enojada]: ¡Devuélveme el cuchillo, ladrón peludo!
+narrador: El mono soltó el cuchillo, agarró un último mango y salió corriendo hacia la selva.
+yei[risa]: ¡Jajaja! ¡Se llevó otro mango!
+kirane[risa]: Jajaja... casi me da un infarto por un mono.
+kitzuki[picara]: Te vi temblar, salvavidas oficial.
+kirane[timida]: ¡Era estrategia!
+fundido
+
+fondo: selva
+musica: misterio
+ambiente: selva
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+narrador: Al día siguiente, siguieron las huellas del mono hasta lo más profundo de la selva.
+kitzuki[pensativa]: Los monos capuchinos suelen volver al mismo refugio. Si lo seguimos...
+yei[feliz]: Hay que ponerle nombre. ¡Capitán! Se llama Capitán.
+kirane[risa]: Capitán Ladrón de Mangos.
+pausa: 1
+efecto: brillo
+sfx: brillo
+yei[sorpresa]: ¡El amuleto! ¡Brilla mucho!
+kirane[sorpresa]: Chicas... miren ese árbol. Las hojas son rojas.
+kitzuki[sorpresa]: El árbol rojo. Y debajo de él... ¡una cabaña!
+sfx: revelacion
+pausa: 1.5

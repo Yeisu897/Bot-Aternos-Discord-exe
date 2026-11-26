@@ -1,0 +1,56 @@
+titulo: La cueva de los símbolos
+
+fondo: cueva
+musica: accion
+ambiente: cueva
+entra: kitzuki izq
+narrador: Yei había caído por un agujero en el fondo de la cueva.
+kitzuki[miedo]: ¡Yei! ¡Yei, ¿me escuchas?!
+yei: Estoy aquí abajo... creo que me torcí el tobillo. ¡No puedo subir!
+kitzuki[nerviosa]: Está muy profundo. Sola no puedo sacarla. Necesito... necesito...
+sfx: pasos
+entra: kirane der
+kirane[preocupada]: ¡Escuché el grito! ¡¿Dónde está?!
+kitzuki[sorpresa]: ¡Kirane! ¡Viniste!
+kirane[seria]: Claro que vine. Explícame rápido, cerebrito. ¿Qué hacemos?
+kitzuki[seria]: La cuerda no alcanza. Pero si atamos la lona, sí. Tú bajas, la amarras y yo hago palanca con la roca.
+kirane[feliz]: Plan de genio. Músculo de campeona. Vamos.
+sale: kitzuki
+fundido
+
+fondo: cueva_simbolos
+musica: misterio
+ambiente: cueva
+efecto: brillo
+entra: yei centro sentada
+entra: kirane der
+narrador: En el fondo del agujero, el amuleto de Yei brillaba con fuerza. Y las paredes respondían.
+kirane[sorpresa]: Yei... mira las paredes.
+yei[sorpresa]: Son... ¡rosas! ¡Rosas talladas en la piedra! ¡Igual que mi amuleto!
+kirane[preocupada]: Esto es muy raro. Hablaremos arriba. Agárrate de mí.
+sfx: golpe
+fundido
+
+fondo: cueva
+efecto: nada
+musica: calma
+entra: yei centro
+entra: kirane der
+entra: kitzuki izq
+narrador: Con la cuerda, la lona y la fuerza de las tres, Yei volvió a la superficie.
+yei[risa]: ¡Lo logramos! ¡Juntas!
+kirane[timida]: Kitzuki... sobre lo que dije. Lo de la reina y eso.
+kitzuki[timida]: Yo empecé. Te dije que te fueras. Fue horrible de mi parte.
+kitzuki[avergonzada]: Lo siento, Kirane. De verdad.
+kirane[sorpresa]: ...Vaya. Sin observación científica y todo.
+kitzuki[sonrojada]: ¡Cállate! Es una disculpa sincera, aprovéchala.
+kirane[risa]: Jajaja. Disculpa aceptada, cuatro ojos. Yo también lo siento.
+yei[risa]: ¡Por fin! ¡Abrazo de grupo!
+kitzuki[nerviosa]: Eh, no, no hace falta un abr... ¡ugh!
+pausa: 1
+musica: misterio
+kitzuki[seria]: Bien. Ahora, Yei, vas a explicarnos por qué tu amuleto coincide con unos dibujos de una cueva perdida.
+kirane[seria]: Sí. Creo que ya es hora.
+yei[nerviosa]: ...Está bien. Les contaré todo.
+sfx: sting
+pausa: 1
