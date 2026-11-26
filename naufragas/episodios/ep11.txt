@@ -3,18 +3,11 @@ titulo: Mensaje en una botella
 fondo: playa_dia
 musica: alegre
 ambiente: olas
-entra: kirane centro nuca
+entra: yei centro
 entra: kitzuki izq
-narrador: Con Kitzuki recuperada, los días se volvieron más tranquilos. Casi felices.
-kirane[risa]: ¡Vamos, cuatro ojos! Hoy aprendes a nadar. Es una orden de la salvavidas oficial.
-kitzuki[nerviosa]: Ni hablar. El océano tiene tiburones, medusas y una profundidad promedio de tres mil setecientos metros.
-kirane[picara]: Aquí tiene un metro. Y el único tiburón soy yo.
-kitzuki[avergonzada]: ...Eso no me tranquiliza en absoluto.
-entra: yei der
-yei[risa]: ¡Chicas! ¡Encontré una botella vacía en la arena! ¿Y si enviamos un mensaje?
-kirane[sorpresa]: ¿Como en las películas? ¡Me encanta!
-kitzuki[pensativa]: Las probabilidades de que alguien la encuentre son bajísimas.
-kitzuki[timida]: ...Pero no son cero. Hagámoslo.
+entra: kirane der nuca
+yei[risa]: ¡Encontré una botella! ¿Enviamos un mensaje?
+kirane[feliz]: ¡Como en las películas!
 fundido
 
 fondo: campamento_atardecer
@@ -24,36 +17,21 @@ ambiente: olas fuego
 entra: yei centro sentada
 entra: kirane der sentada
 entra: kitzuki izq sentada
-narrador: Escribieron con carbón sobre un trozo de la lona. Cada una añadió una línea secreta.
-yei[timida]: ¿Qué escribiste tú, Kirane?
-kirane[timida]: Es secreto. Bueno... le escribí a Teo. Que lo quiero y que no se coma mis dulces.
-yei[risa]: Jijiji. Yo le escribí a la abuela: encontré tu isla, y encontré dos amigas.
-kitzuki[sonrojada]: ...
-kirane[picara]: ¿Y tú, Kitzuki? Te pusiste roja.
-kitzuki[avergonzada]: Escribí: si alguien lee esto, estoy bien. Por primera vez, estoy bien.
-pausa: 1
-kirane[timida]: Oye... eso fue bonito.
-kitzuki[sonrojada]: ¡No lo repitas en voz alta!
+kirane[timida]: Yo le escribí a Teo que lo quiero.
+yei[feliz]: Yo, que encontré la isla de la abuela, y dos amigas.
+kitzuki[sonrojada]: Yo escribí: por primera vez, estoy bien.
 fundido
 
 fondo: playa_atardecer
-musica: esperanza
+musica: misterio
 ambiente: olas
 entra: yei centro
-entra: kirane der
 entra: kitzuki izq
-narrador: Al atardecer, Kirane lanzó la botella tan lejos como pudo.
+entra: kirane der
 sfx: chapuzon
-kirane[feliz]: ¡Buen viaje, botellita!
-yei[feliz]: Que llegue a alguien bueno.
-pausa: 1
-musica: misterio
-narrador: Pero cuando las olas retrocedieron, dejaron algo en la orilla. Otra botella. Vieja, cubierta de algas.
-kitzuki[sorpresa]: Esa no es la nuestra.
-kirane[sorpresa]: ¡Tiene un papel adentro!
-yei[nerviosa]: Está escrito a mano... la tinta está casi borrada.
-yei[sorpresa]: Dice: Marina, mil novecientos ochenta y siete. Sigan la rosa hasta la casa del árbol rojo.
+narrador: Las olas devolvieron otra botella. Vieja y cubierta de algas.
+yei[sorpresa]: Dice: Marina, mil novecientos ochenta y siete. Sigan la rosa hasta el árbol rojo.
 zoom: 1.25 centro
 yei[sorpresa]: ¡Es la letra de mi abuela!
 sfx: revelacion
-pausa: 1.5
+pausa: 1

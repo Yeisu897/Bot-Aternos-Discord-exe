@@ -4,45 +4,25 @@ fondo: campamento_dia
 efecto: fuego
 musica: calma
 ambiente: olas fuego
-narrador: Pasó una semana. Se mudaron cerca de la cueva, pero la comida empezó a escasear.
 entra: kitzuki centro
 entra: kirane der
 entra: yei izq
-kitzuki[seria]: Quedan tres cocos y algunos mangos. A partir de hoy, racionaremos la comida.
-kirane[molesta]: ¿Racionar? Yo soy la que pesca. Yo necesito más energía.
-kitzuki[seria]: Todas necesitamos energía. Medio coco por persona al día.
-kirane[enojada]: ¡¿Medio coco?! ¿Quién te crees, la reina de la isla?
-kitzuki[enojada]: ¡Alguien tiene que pensar en mañana! Tú solo piensas en el ahora.
-kirane[enojada]: ¡Y tú solo das órdenes desde la sombra mientras yo me parto la espalda en el mar!
-yei[nerviosa]: Chicas, por favor, podemos hablarlo con calma...
-kirane[enojada]: ¡No, Yei! Siempre lo hablamos con calma y siempre gana ella.
+narrador: Pasó una semana. La comida empezó a escasear.
+kitzuki[seria]: Desde hoy, medio coco por persona al día.
+kirane[enojada]: ¿Quién te crees, la reina de la isla? ¡Yo soy la que pesca!
+kitzuki[enojada]: ¡Alguien tiene que pensar en mañana!
 musica: triste
 kitzuki[seria]: Si tanto te molesta, nadie te obliga a quedarte.
-pausa: 1
 zoom: 1.2 der
-kirane[triste]: ...¿Ah, sí?
-kirane[enojada]: Perfecto. Me voy al otro lado de la isla. Allá hay peces de sobra, y nadie que me mande.
+kirane[triste]: Perfecto. Me voy al otro lado de la isla.
 zoom: 1
-yei[miedo]: ¡Kirane, no! ¡No te vayas!
-kirane[triste]: Lo siento, Yei. Tú no tienes la culpa.
+yei[miedo]: ¡Kirane, no te vayas!
 sale: kirane
-sfx: pasos
-pausa: 1.5
-yei[triste]: Kitzuki... ¿por qué le dijiste eso?
-kitzuki[avergonzada]: Yo... no pensé que de verdad se iría.
-yei[enojada]: ¡Siempre crees que tienes la razón! ¡Pero las personas no son ecuaciones!
-sale: yei
 pausa: 1
+yei[enojada]: ¡Kitzuki, las personas no son ecuaciones!
+sale: yei
 mueve: kitzuki centro
 zoom: 1.25 centro
-kitzuki[triste]: ...Lo sé.
-narrador: Esa noche, por primera vez desde el naufragio, el fuego se sintió demasiado grande para una sola persona.
-fondo: campamento_noche
-musica: triste
-ambiente: fuego noche
-pose: kitzuki sentada
-pausa: 1
-kitzuki[triste]: Siempre arruino todo. En la escuela, en la universidad... aquí también.
-pausa: 1
+kitzuki[triste]: ...Lo sé. Siempre arruino todo.
 sfx: sting
 pausa: 1

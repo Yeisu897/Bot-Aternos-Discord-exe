@@ -1,48 +1,22 @@
 titulo: La gran tormenta
 
-fondo: campamento_tormenta
-efecto: lluvia apagado
-musica: accion
-ambiente: lluvia viento
-entra: kirane der
-entra: kitzuki izq
-entra: yei centro
-relampago
-temblor
-narrador: Era un huracán. El mar se levantaba como una pared y el viento arrancaba las palmeras.
-kitzuki[miedo]: ¡El refugio no va a resistir! ¡Hay que ir a la cueva!
-kirane[seria]: ¡Agarren las cuerdas y el agua! ¡Lo demás se queda!
-yei[miedo]: ¡El diario de la abuela! ¡Está en el refugio!
-kirane[enojada]: ¡Yei, no! ¡Déjalo!
-sale: yei
-sfx: pasos
-relampago
-temblor
-kirane[miedo]: ¡YEI!
-fundido
-
 fondo: playa_tormenta
 efecto: lluvia
-musica: tension
+musica: accion
 ambiente: lluvia viento olas
 entra: yei izq
 entra: kirane der
-yei[nerviosa]: ¡Lo tengo! ¡Tengo el diario!
-kirane[enojada]: ¡Corre! ¡Viene una ola enorme!
+relampago
+yei[nerviosa]: ¡Salvé el diario de la abuela!
+kirane[enojada]: ¡Corre, Yei! ¡Viene una ola enorme!
 sfx: chapuzon
 temblor
-relampago
-narrador: La ola golpeó la playa con toda su fuerza. Y arrastró a Kirane hacia el mar.
 sale: kirane
 kirane: ¡Aaah! ¡Yei!
-yei[miedo]: ¡KIRANE!
 zoom: 1.2 izq
-yei[enojada]: ¡No! ¡No te voy a soltar! ¡Agárrate de mi mano!
 efecto: lluvia brillo
 sfx: brillo
-narrador: Yei se lanzó al agua, con el amuleto brillando como un faro en la oscuridad.
-sfx: chapuzon
-yei[enojada]: ¡Te tengo! ¡Te tengo, Kirane!
+yei[enojada]: ¡No te voy a soltar! ¡Te tengo, Kirane!
 zoom: 1
 fundido
 
@@ -53,16 +27,8 @@ ambiente: cueva lluvia
 entra: kirane der sentada
 entra: kitzuki izq
 entra: yei centro sentada
-narrador: Kitzuki las encontró en la orilla, abrazadas, y las arrastró hasta la cueva.
-kitzuki[triste]: ¡Ustedes dos están locas! ¡Casi me muero del susto! ¡Las dos!
-kirane[triste]: Yei... me salvaste la vida. La salvavidas salvada por la que no sabía ni encender fuego.
-yei[cansada]: Jijiji... estamos a mano...
-kitzuki[preocupada]: Yei, estás sangrando. Tu pierna...
-yei[nerviosa]: No es nada... me golpeé con una roca, nada más...
-kitzuki[seria]: Déjame ver. ...Yei, esto es serio. No vas a poder caminar en días.
-pausa: 1
-yei[triste]: Pero... la luna llena es pasado mañana. Tenemos que subir a la montaña.
-kirane[triste]: Y la leña, las cuerdas... todo se lo llevó el mar.
-narrador: Lo habían perdido casi todo. Solo les quedaba el diario, el amuleto... y entre ellas.
+kirane[triste]: Me salvaste la vida, Yei.
+kitzuki[preocupada]: Yei, tu pierna... No vas a poder caminar en días.
+yei[triste]: Pero la luna llena es pasado mañana...
 sfx: sting
-pausa: 1.5
+pausa: 1

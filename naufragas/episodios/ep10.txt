@@ -2,48 +2,32 @@ titulo: Fiebre
 
 fondo: cueva
 musica: triste
-ambiente: cueva lluvia
+ambiente: cueva
 entra: kitzuki centro acostada
-narrador: Tres días después, el rasguño de Kitzuki se había infectado. La fiebre no bajaba.
 entra: yei izq
 entra: kirane der
-yei[preocupada]: Está ardiendo. Kitzuki, ¿me escuchas?
-kitzuki[cansada]: Mmm... la mitocondria... es la central energética de la célula...
-kirane[preocupada]: Está delirando. Tenemos que hacer algo.
-kitzuki[cansada]: Yei... hay una planta... hojas anchas, flores amarillas... cerca del agua. Antiséptico natural...
-yei[seria]: Hojas anchas, flores amarillas, cerca del agua. ¡La encontraré!
-kirane[seria]: Ve tú. Yo me quedo con ella. Mantendré su frente fría.
+narrador: La herida se infectó. Kitzuki ardía de fiebre.
+kitzuki[cansada]: Una planta... flores amarillas... cerca del agua...
+yei[seria]: ¡La encontraré!
 sale: yei
-sfx: pasos
 fundido
 
 fondo: cascada
 musica: tension
 ambiente: selva
 entra: yei centro
-yei[nerviosa]: Hojas anchas... flores amarillas... ¡Hay cien plantas aquí! ¿Cuál es?
-yei[triste]: Abuela, si de verdad estuviste aquí... ayúdame, por favor.
 efecto: brillo
 sfx: brillo
-yei[sorpresa]: El amuleto... brilla más cuando me acerco a esas rocas.
-narrador: Entre las rocas, junto al agua, crecía una pequeña planta de flores amarillas.
-yei[risa]: ¡Ahí está! ¡Gracias, gracias!
+yei[sorpresa]: El amuleto brilla junto a esas rocas... ¡Ahí está la planta!
 efecto: nada
 fundido
 
 fondo: cueva
 musica: triste
-ambiente: cueva noche
 entra: kitzuki centro acostada
 entra: kirane der sentada
-narrador: Esa noche, mientras Yei preparaba la planta, Kirane no se separó de Kitzuki.
-kitzuki[cansada]: Kirane... ¿sigues ahí?
-kirane[preocupada]: Aquí estoy, cuatro ojos. No me voy a ningún lado.
-kitzuki[triste]: Nunca tuve amigas, ¿sabes? En el recreo leía sola. Me decían la gata rara.
-kitzuki[triste]: Pensé que si era lista, nadie notaría que estaba sola.
-kirane[triste]: Pues yo lo noté. Y no te voy a dejar sola nunca más. ¿Me oyes?
-kitzuki[timida]: ...Eres ruidosa, cabeza de alga.
-kirane[risa]: Y tú eres insoportable. Por eso nos llevamos bien.
+kitzuki[triste]: Nunca tuve amigas. Me decían la gata rara.
+kirane[triste]: No te voy a dejar sola nunca más. ¿Me oyes?
 fundido
 
 fondo: playa_amanecer
@@ -52,13 +36,7 @@ ambiente: olas
 entra: kitzuki centro
 entra: yei izq
 entra: kirane der
-narrador: Al tercer día, la fiebre bajó.
-kitzuki[normal]: Buenos días. ¿Por qué me miran así?
-yei[risa]: ¡Kitzuki! ¡Despertaste!
-kirane[timida]: No estaba preocupada ni nada. Solo... no dormí en tres días por gusto.
-kitzuki[sonrojada]: ...Gracias. A las dos. Escuché todo lo que dijeron, por cierto.
-kirane[sorpresa]: ¡¿Todo?!
-kitzuki[picara]: Todo. Lo de nunca dejarme sola fue muy tierno, cabeza de alga.
-kirane[enojada]: ¡Borra eso de tu memoria ahora mismo!
-yei[risa]: Jajaja. Bienvenida de vuelta.
+kitzuki[picara]: Buenos días. Lo escuché todo, cabeza de alga.
+kirane[enojada]: ¡Borra eso de tu memoria!
+yei[risa]: ¡Bienvenida de vuelta!
 pausa: 1

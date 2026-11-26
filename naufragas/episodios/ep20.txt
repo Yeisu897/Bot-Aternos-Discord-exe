@@ -6,19 +6,11 @@ ambiente: olas
 entra: yei centro
 entra: kitzuki izq
 entra: kirane der
-narrador: Al mediodía, un bote del carguero Estrella Polar llegó a la playa.
-marinero: ¡Increíble! ¡Las náufragas del Aurora Celeste! ¡Las dieron por muertas hace un mes!
-kirane[risa]: ¡Pues aquí estamos! ¡Vivitas y coleando!
-marinero: Los otros botes salvavidas llegaron a tierra hace semanas. Todos sobrevivieron. Las buscaron por todas partes.
-kitzuki[sorpresa]: ¿Todos sobrevivieron? ¿El bote que vi esa noche también?
-marinero: Todos. Ustedes eran las únicas desaparecidas.
-kitzuki[triste]: Entonces... no fue mi culpa. Nunca fue mi culpa.
+marinero: ¡Las náufragas del Aurora! Los demás botes llegaron a tierra. Todos sobrevivieron.
+kitzuki[triste]: ¿Todos? Entonces... no fue mi culpa.
 yei[feliz]: Te lo dije.
-pausa: 1
-yei[timida]: Esperen. Antes de irnos... hay alguien de quien despedirnos.
 sfx: comico
-kirane[risa]: ¡Capitán! ¡Viniste a despedirte, ladrón peludo!
-kitzuki[timida]: Toma. El último mango. Te lo ganaste.
+kirane[risa]: ¡Adiós, Capitán, ladrón peludo!
 fundido
 
 fondo: cubierta
@@ -27,14 +19,8 @@ ambiente: barco
 entra: yei centro
 entra: kitzuki izq
 entra: kirane der
-narrador: Desde la cubierta del barco, vieron la isla hacerse pequeña en el horizonte.
-kirane[triste]: Se ve tan pequeña desde aquí.
-kitzuki[pensativa]: Treinta y cuatro días. Sin agua, sin fuego, sin techo. Y aquí estamos.
 yei[feliz]: Llegamos como tres desconocidas.
-kirane[timida]: Y nos vamos como una familia rara y ruidosa.
-kitzuki[picara]: La parte ruidosa eres tú, cabeza de alga.
-kirane[risa]: ¡Jajaja! ¡Te voy a extrañar, cuatro ojos! ...Bueno, no, porque no te vas a librar de mí.
-kitzuki[sonrojada]: ...Cuento con eso.
+kirane[timida]: Y nos vamos como una familia.
 fundido
 
 tarjeta: Tres semanas después
@@ -44,22 +30,12 @@ ambiente: nada
 entra: yei centro
 entra: kitzuki izq
 entra: kirane der
-narrador: En un pequeño jardín junto al mar, una anciana esperaba en la puerta de su casa.
-yei[risa]: ¡Abuela! ¡Abuela Marina!
-abuela: Yei... mi niña. Recibí tu carta. Dijeron que habías encontrado la isla.
-yei[triste]: La encontré, abuela. Encontré tu cabaña, tus rosas... y tu diario.
-abuela: Pasé un año allí sola. Siempre pensé que la isla me había robado un año de vida.
-yei[feliz]: Pues a mí me regaló dos hermanas.
-kitzuki[timida]: Mucho gusto, señora Marina. Su heliógrafo es una obra maestra de la ingeniería.
-kirane[timida]: Y su mono le manda saludos. Sigue robando mangos.
-abuela: ¡Jajaja! ¿Capitán sigue vivo?
-yei[risa]: ¡Su nieto, o su bisnieto!
-pausa: 1
+yei[risa]: ¡Abuela Marina! Encontré tu isla y tu diario.
+abuela: Siempre pensé que esa isla me robó un año de vida.
+yei[feliz]: A mí me regaló dos hermanas.
 musica: tema
-narrador: Así terminó la historia de las náufragas. Tres chicas que lo perdieron todo en el mar...
-narrador: y que, en una isla sin nombre, encontraron lo único que no se puede perder.
 yei[feliz]: Amigas.
 kirane[feliz]: Familia.
 kitzuki[timida]: Hogar.
 sfx: alegria
-pausa: 2
+pausa: 1

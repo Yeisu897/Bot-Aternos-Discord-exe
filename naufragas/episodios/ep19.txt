@@ -6,50 +6,25 @@ ambiente: viento
 entra: kitzuki izq
 entra: kirane der
 entra: yei centro sentada
-narrador: Llegaron a la cima con el primer rayo del sol. Desde allí se veía todo el océano.
-kitzuki[pensativa]: La ruta de los barcos de carga debería estar por allá. Hacia el este.
-kirane[seria]: No veo nada. Solo agua.
-yei[nerviosa]: Esperemos. La abuela dijo que pasan con la luna llena.
-narrador: Esperaron. Una hora. Dos horas. El sol subía y no aparecía nada.
-kirane[triste]: ...¿Y si el diario se equivocaba? ¿Y si las rutas cambiaron en cuarenta años?
-kitzuki[triste]: Es... posible.
-yei[triste]: No. No puede terminar así.
-pausa: 1.5
+narrador: Esperaron en la cima durante horas.
+kirane[triste]: ¿Y si las rutas cambiaron?
 musica: accion
-kitzuki[sorpresa]: ¡Esperen! ¡Allí! ¡Un punto oscuro en el horizonte!
-kirane[sorpresa]: ¡Es un barco! ¡Es un barco grande!
-yei[risa]: ¡Viene hacia acá!
-kitzuki[seria]: ¡El amuleto, Yei! Inclínalo hacia el sol. El destello tiene que apuntar al barco.
+kitzuki[sorpresa]: ¡Allí! ¡Un barco!
 efecto: brillo
 sfx: brillo
-yei[nerviosa]: ¡Así! ¿Así está bien?
-kitzuki[nerviosa]: ¡Un poco más a la izquierda! ¡Ahí! ¡Ahora tápalo y destápalo! ¡Tres cortos, tres largos, tres cortos!
-kirane[sorpresa]: ¡S O S! ¡Kitzuki, eres increíble!
-kirane[seria]: ¡Y yo enciendo la hoguera! ¡Con hojas verdes para que salga humo negro!
+kitzuki[nerviosa]: ¡Yei, el amuleto hacia el sol! ¡Tres cortos, tres largos, tres cortos!
+kirane[seria]: ¡Y yo enciendo la hoguera!
 sfx: fuego_on
-narrador: El humo negro subió hacia el cielo. Y el destello de la rosa brilló una y otra vez sobre el mar.
 pausa: 1
-kirane[nerviosa]: ...¿Nos vio? ¿Nos vio?
-kitzuki[nerviosa]: Sigue avanzando. No sé si...
-pausa: 1.5
 musica: nada
 sfx: bocina
-pausa: 2
-yei[sorpresa]: ...Eso fue...
-sfx: bocina
+pausa: 1.5
 musica: esperanza
-kirane[risa]: ¡Es la bocina! ¡¡NOS VIERON!! ¡¡NOS VIERON!!
-kitzuki[risa]: ¡Está girando hacia la isla! ¡Viene por nosotras!
-yei[risa]: ¡Abuela, lo logramos! ¡La rosa nos llevó a casa!
+kirane[risa]: ¡Es la bocina! ¡NOS VIERON!
+yei[risa]: ¡Abuela, la rosa nos llevó a casa!
 temblor
-pose: yei base
-kirane[risa]: ¡Jajaja! ¡Abrazo de grupo! ¡Y esta vez no te escapas, Kitzuki!
-kitzuki[risa]: ¡Jajaja! ¡Por esta vez, lo permito!
-pausa: 1
 efecto: nada
 musica: romance
-yei[triste]: Es raro... estoy feliz, pero también un poco triste.
-kitzuki[timida]: Lo sé. Esta isla... también fue nuestra casa.
-kirane[timida]: Nuestra primera casa. Las tres.
+kitzuki[timida]: Esta isla también fue nuestra casa.
 sfx: alegria
-pausa: 1.5
+pausa: 1

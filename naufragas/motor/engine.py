@@ -22,7 +22,7 @@ W, H, FPS = 1280, 720, 24
 SR = audio.SR
 SERIE = "NÁUFRAGAS"
 SUBTITULO = "Tres en la isla"
-INTRO, OUTRO = 7.0, 6.0
+INTRO, OUTRO = 4.0, 3.5
 
 FONT = lambda f, s: ImageFont.truetype(os.path.join(ROOT, "assets", "fonts", f), s)  # noqa: E731
 F_TEXT = FONT("NotoSans-Regular.ttf", 30)
@@ -142,7 +142,7 @@ class Episodio:
     def _build(self):
         t = INTRO
         self.music.append((0.0, "tema"))
-        self.sfx.append((2.6, "brillo"))
+        self.sfx.append((1.3, "brillo"))
         cur_fx = set()
         on_stage = {}
         with open(self.path, encoding="utf-8") as f:
@@ -159,7 +159,7 @@ class Episodio:
                     expr = CHARS[who]["defecto"]
                 clip = tts.sintetizar(who, text, expr)
                 dur = len(clip) / SR
-                total = max(1.8, dur + 0.55)
+                total = max(1.5, dur + 0.35)
                 self.lines.append(dict(t0=t, t1=t + total, who=who, expr=expr, text=text, dur=dur))
                 self.voices.append((t + 0.15, clip))
                 t += total
@@ -172,7 +172,7 @@ class Episodio:
                 self.bg.append((t, a[0]))
                 if self.barco_t0 is not None and "barco" not in cur_fx:
                     self.barco_t0 = None
-                t += 0.4
+                t += 0.2
             elif cmd == "musica":
                 self.music.append((t, a[0]))
             elif cmd == "ambiente":
@@ -208,8 +208,8 @@ class Episodio:
             elif cmd == "pausa":
                 t += float(a[0]) if a else 1.0
             elif cmd == "tarjeta":
-                self.cards.append((t, t + 3.0, arg))
-                t += 3.0
+                self.cards.append((t, t + 2.0, arg))
+                t += 2.0
             elif cmd == "temblor":
                 self.shakes.append(t)
             elif cmd == "relampago":
@@ -219,8 +219,8 @@ class Episodio:
                 self.flashes.append(t)
             elif cmd == "fundido":
                 self.fades.append(t)
-                t += 1.2
-        t += 1.0
+                t += 0.8
+        t += 0.5
         self.body_end = t
         self.total = t + OUTRO
         self.music.append((self.body_end, "tema"))
@@ -470,8 +470,8 @@ class Render:
                     y += 70
                 return Image.blend(img, over, k)
         for tf in self.ep.fades:
-            if tf <= t < tf + 1.2:
-                k = 1 - abs((t - tf) - 0.6) / 0.6
+            if tf <= t < tf + 0.8:
+                k = 1 - abs((t - tf) - 0.4) / 0.4
                 return Image.blend(img, Image.new("RGB", (W, H), (0, 0, 0)), max(0, k))
         return img
 
@@ -486,21 +486,21 @@ class Render:
     def intro(self, t):
         img = self.bg_layer("playa_atardecer", t + 20)
         for i, (who, x) in enumerate((("kitzuki", 300), ("yei", 640), ("kirane", 980))):
-            t0 = 0.3 + i * 0.45
+            t0 = 0.1 + i * 0.2
             u = ease((t - t0) / 0.7)
             if u <= 0:
                 continue
             sp = sprite(who, "base", (1.0, 0.86, 0.78))
             y = int(H + 12 - sp.height + (1 - u) * 400)
             img.paste(sp, (int(x - sp.width / 2), y), sp)
-            if t > t0 + 0.5 and t < 2.6:
+            if t > t0 + 0.4 and t < 1.3:
                 d = ImageDraw.Draw(img)
                 nm = CHARS[who]["nombre"]
                 w = F_NAME.getlength(nm)
                 d.rounded_rectangle((x - w / 2 - 20, 600, x + w / 2 + 20, 648), 18, fill=CHARS[who]["color"])
                 d.text((x - w / 2, 604), nm, font=F_NAME, fill=(20, 20, 30))
-        if t > 2.5:
-            k = ease((t - 2.5) / 0.6)
+        if t > 1.2:
+            k = ease((t - 1.2) / 0.4)
             dark = Image.new("RGB", (W, H), (20, 10, 40))
             img = Image.blend(img, dark, 0.45 * k)
             d = ImageDraw.Draw(img)
@@ -511,8 +511,8 @@ class Render:
                        fill=(40, 20, 60) if dx else (int(255 * k), int(235 * k), int(170 * k)))
             sw = F_SUB.getlength(SUBTITULO)
             d.text(((W - sw) / 2, y + 135), SUBTITULO, font=F_SUB, fill=(int(170 * k + 30), int(230 * k), int(255 * k)))
-        if t > 4.4:
-            k = ease((t - 4.4) / 0.5)
+        if t > 2.0:
+            k = ease((t - 2.0) / 0.4)
             d = ImageDraw.Draw(img)
             s1 = f"Episodio {self.ep.num}"
             s2 = self.ep.titulo
@@ -520,20 +520,20 @@ class Render:
                                 outline=(int(230 * k), int(200 * k), int(120 * k)), width=3)
             d.text(((W - F_SUB.getlength(s1)) / 2, 440), s1, font=F_SUB, fill=(int(255 * k), int(230 * k), int(170 * k)))
             d.text(((W - F_SUB.getlength(s2)) / 2, 495), s2, font=F_SUB, fill=(int(255 * k),) * 3)
-        if t > INTRO - 0.6:
-            img = Image.blend(img, Image.new("RGB", (W, H)), ease((t - (INTRO - 0.6)) / 0.6))
+        if t > INTRO - 0.4:
+            img = Image.blend(img, Image.new("RGB", (W, H)), ease((t - (INTRO - 0.4)) / 0.4))
         return img
 
     def outro(self, t):
         u = t - self.ep.body_end
         img = Image.new("RGB", (W, H), (10, 8, 22))
         d = ImageDraw.Draw(img)
-        k = ease(u / 0.8)
+        k = ease(u / 0.5)
         final = self.next_title is None
         s = "FIN" if final else "Continuará..."
         d.text(((W - F_TITLE.getlength(s)) / 2, 180), s, font=F_TITLE, fill=(int(240 * k), int(220 * k), int(160 * k)))
-        if u > 1.0:
-            k2 = ease((u - 1.0) / 0.6)
+        if u > 0.6:
+            k2 = ease((u - 0.6) / 0.4)
             s2 = "Gracias por acompañar a Yei, Kitzuki y Kirane" if final else f"Próximo episodio: {self.next_title}"
             d.text(((W - F_SUB.getlength(s2)) / 2, 360), s2, font=F_SUB, fill=(int(200 * k2), int(230 * k2), int(255 * k2)))
         cred = "Náufragas · Voces: espeak-ng + MBROLA · Música y fondos generados por código"
@@ -542,8 +542,8 @@ class Render:
         for i, who in enumerate(("kitzuki", "yei", "kirane")):
             p = retrato(who, {"kitzuki": "picara", "yei": "risa", "kirane": "feliz"}[who], 120)
             img.paste(p, (W // 2 - 200 + i * 140, 470), p)
-        if u > OUTRO - 0.7:
-            img = Image.blend(img, Image.new("RGB", (W, H)), ease((u - (OUTRO - 0.7)) / 0.7))
+        if u > OUTRO - 0.5:
+            img = Image.blend(img, Image.new("RGB", (W, H)), ease((u - (OUTRO - 0.5)) / 0.5))
         return img
 
     def frame(self, t):
@@ -557,8 +557,8 @@ class Render:
         img = self.flash(img, t)
         img = self.dialog(img, t)
         img = self.card(img, t)
-        if t - INTRO < 0.8:
-            img = Image.blend(Image.new("RGB", (W, H)), img, ease((t - INTRO) / 0.8))
+        if t - INTRO < 0.5:
+            img = Image.blend(Image.new("RGB", (W, H)), img, ease((t - INTRO) / 0.5))
         if ep.body_end - t < 0.8:
             img = Image.blend(Image.new("RGB", (W, H)), img, ease((ep.body_end - t) / 0.8))
         return img

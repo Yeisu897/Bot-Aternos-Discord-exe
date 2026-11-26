@@ -6,39 +6,18 @@ ambiente: fuego noche
 entra: yei centro sentada
 entra: kirane der sentada
 entra: kitzuki izq sentada
-narrador: Junto al fuego, Yei sacó el amuleto y lo dejó sobre la arena.
 efecto: brillo
-yei[triste]: Mi abuela Marina me contaba una historia. Que cuando era joven naufragó en una isla sin nombre.
-yei[triste]: Que vivió ahí casi un año, y que esta rosa la ayudó a volver a casa.
-kirane[sorpresa]: ¿Tu abuela estuvo aquí? ¿En esta misma isla?
-yei[nerviosa]: Yo... siempre creí que era un cuento para dormir. Pero los símbolos de la cueva...
-kitzuki[seria]: Espera. Yei, ¿por qué estabas realmente en el Aurora Celeste?
-pausa: 1
-yei[triste]: ...La abuela está enferma. Antes de que me fuera, me pidió que buscara la isla de la rosa.
-yei[triste]: Dijo que había dejado algo ahí. Algo importante. Yo compré el pasaje porque la ruta pasaba cerca.
-kitzuki[enojada]: ¡¿Sabías que había una isla perdida en la ruta y no dijiste nada?!
-yei[miedo]: ¡No sabía que íbamos a naufragar! ¡Nunca quise esto!
+yei[triste]: Mi abuela naufragó en una isla de joven. Dice que esta rosa la llevó a casa.
+yei[triste]: Está enferma. Me pidió buscar la isla. Por eso estaba en el barco.
+kitzuki[enojada]: ¡¿Y lo callaste una semana entera?!
+yei[miedo]: ¡Tenía miedo de que pensaran que estoy loca!
 efecto: nada
-kitzuki[enojada]: ¡Una semana, Yei! ¡Una semana mintiendo mientras peleábamos por cocos!
-kirane[molesta]: Kitzuki, cálmate. Está llorando.
-kitzuki[triste]: Es que... confié en ti. Fuiste la primera persona en mucho tiempo en la que confié.
-pausa: 1
-yei[triste]: Y yo tenía miedo. Si les contaba lo del amuleto, iban a pensar que estaba loca.
-yei[triste]: Ustedes son lo único que tengo aquí. No quería perderlas.
-pausa: 1
-kirane[seria]: Yo te creo, Yei. Y no te vamos a dejar por esto.
-kirane[molesta]: ¿Verdad, Kitzuki?
-pausa: 1
-kitzuki[avergonzada]: ...Verdad. Perdón por gritar. Pero se acabaron los secretos. Las tres.
-yei[timida]: Se acabaron los secretos. Lo prometo.
-efecto: brillo
-sfx: brillo
-kitzuki[pensativa]: Entonces, si tu abuela salió de esta isla, hay una forma de salir.
-kirane[feliz]: ¡Y la vamos a encontrar!
-yei[feliz]: Juntas.
-efecto: nada
+kitzuki[triste]: Fuiste la primera persona en la que confié en mucho tiempo.
+kirane[seria]: Yo te creo, Yei. ¿Verdad, Kitzuki?
+kitzuki[avergonzada]: ...Verdad. Pero se acabaron los secretos.
+yei[timida]: Lo prometo.
 musica: tension
-narrador: Pero esa misma noche, Kitzuki pisó una roca afilada al volver de la cascada.
-kitzuki[nerviosa]: Ay... no es nada. Solo un rasguño.
+narrador: Esa noche, Kitzuki se cortó el pie con una roca.
+kitzuki[nerviosa]: No es nada. Solo un rasguño.
 sfx: sting
 pausa: 1

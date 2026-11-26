@@ -5,51 +5,27 @@ efecto: apagado
 musica: triste
 ambiente: olas
 entra: yei centro
-narrador: Pasaron dos días. Kirane casi no comía. Kitzuki pasaba horas mirando el mar.
-yei[feliz]: ¡Buenos días! Hoy preparé mangos asados. ¡Receta especial de la chef Yei!
 entra: kirane der sentada
-kirane[triste]: No tengo hambre.
 entra: kitzuki izq
-kitzuki[triste]: Yo tampoco. Gracias.
-yei[feliz]: Vamos, aunque sea un poquito. Mañana podemos buscar el árbol rojo, y...
-kirane[molesta]: Yei, para. No hace falta que finjas que todo está bien.
-yei[feliz]: No finjo nada. Solo digo que...
-kitzuki[seria]: Llevas dos días sonriendo sin parar. Eso no es normal.
-pausa: 1
+yei[feliz]: ¡Mangos asados! ¡Receta de la chef Yei!
+kirane[molesta]: Yei, para. No finjas que todo está bien.
 musica: romance
 zoom: 1.2 centro
-yei[triste]: ...
-yei[triste]: Es que si yo también me rindo... ¿quién va a sostenerlas?
-yei[triste]: Ustedes son fuertes, inteligentes, valientes. Yo solo sé sonreír. Es lo único que puedo aportar.
-yei[triste]: Y estoy tan cansada... tengo tanto miedo como ustedes...
+yei[triste]: Si yo también me rindo, ¿quién las va a sostener?
+yei[triste]: Tengo tanto miedo como ustedes...
 zoom: 1
-pose: kirane base
-kirane[sorpresa]: Yei...
-mueve: kitzuki izq2
-kitzuki[triste]: Tonta. ¿Quién te dijo que solo sabes sonreír?
-kitzuki[timida]: Tú nos uniste el primer día. Tú paraste todas nuestras peleas. Tú encontraste el agua de la cascada y la planta que me salvó.
-kirane[triste]: Y fuiste tú quien no se rindió conmigo cuando me fui como una idiota.
-kirane[timida]: No tienes que cargar con nosotras sola. Por eso somos tres.
-yei[triste]: Chicas...
-pausa: 1
-narrador: Yei lloró por primera vez desde el naufragio. Y esta vez, las otras dos la sostuvieron a ella.
-pausa: 1
+kitzuki[timida]: Tonta. Tú nos uniste y me salvaste la vida.
+kirane[timida]: No cargues sola con nosotras. Por eso somos tres.
 musica: esperanza
-kirane[normal]: ...Oye. Esos mangos asados huelen bien.
-yei[risa]: ¡Jijiji! ¡Son los mejores de la isla!
-kitzuki[picara]: Son los únicos de la isla.
-yei[feliz]: ¡Por eso son los mejores!
-kirane[risa]: Jajaja. Vale, vale. Mañana buscamos el árbol rojo. Las tres.
+yei[risa]: ...Pero los mangos sí están buenos.
 fundido
 
 fondo: campamento_noche
 musica: misterio
-ambiente: fuego noche
+ambiente: noche
 entra: kitzuki centro sentada
-narrador: Esa noche, Kitzuki despertó por un ruido.
 sfx: rama
-kitzuki[sorpresa]: ¿Hola? ¿Kirane? ¿Yei?
-pausa: 1
-narrador: Las dos dormían. Y en la arena, junto a la reserva de comida, había huellas que no eran de ninguna de ellas.
+narrador: Esa noche, junto a la comida, aparecieron huellas que no eran de ninguna de ellas.
+kitzuki[sorpresa]: ¿Hay alguien más en la isla?
 sfx: sting
-pausa: 1.5
+pausa: 1
