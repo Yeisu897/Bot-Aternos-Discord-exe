@@ -1,0 +1,20 @@
+titulo: El despertador
+
+fondo: cuarto_noche
+musica: misterio
+entra: kitzuki centro acostada
+narrador: Kitzuki tiene una clase a las ocho. Puso siete alarmas.
+sfx: telefono
+kitzuki[cansada]: Cinco minutos más...
+sfx: telefono
+kitzuki[cansada]: La mitocondria... puede esperar...
+entra: kirane der
+kirane[picara]: Plan de rescate número uno.
+sfx: chapuzon
+temblor
+pose: kitzuki base
+kitzuki[enojada]: ¡¿Me tiraste agua?!
+kirane[risa]: ¡Técnica de salvavidas! Son las ocho menos cinco.
+kitzuki[sorpresa]: ¡¿Las ocho menos cinco?! ¡Ahhh!
+sale: kitzuki
+pausa: 1

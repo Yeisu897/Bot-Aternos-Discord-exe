@@ -1,0 +1,17 @@
+titulo: La lavadora
+
+fondo: cocina
+musica: alegre
+entra: yei centro
+yei[feliz]: Hoy aprendo a usar la lavadora. ¿Cuánto jabón se pone?
+entra: kirane der
+kirane[seria]: Mucho. Más jabón, más limpio. Es lógica.
+entra: kitzuki izq
+kitzuki[sorpresa]: Eso no es lógica, eso es... ¿por qué sale espuma por la puerta?
+sfx: chapuzon
+temblor
+yei[miedo]: ¡La espuma nos persigue!
+kirane[risa]: ¡Jajaja! ¡Es como las olas de la isla!
+kitzuki[enojada]: ¡Una cucharada! ¡Era una cucharada!
+yei[timida]: ...Al menos el piso quedó limpio.
+pausa: 1

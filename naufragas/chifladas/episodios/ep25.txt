@@ -1,0 +1,19 @@
+titulo: Karaoke
+
+fondo: sala_noche
+musica: tema
+entra: yei centro
+entra: kitzuki izq sentada
+entra: kirane der
+kirane[risa]: ¡Noche de karaoke! ¡Empiezo yo!
+kirane[feliz]: ¡La la la, soy la reina del mar, la la la!
+kitzuki[cansada]: Desafinó en cada nota. Es casi un logro científico.
+yei[feliz]: ¡Ahora tú, Kitzuki!
+kitzuki[nerviosa]: No. No canto. Jamás.
+kirane[picara]: ¿Miedo, cuatro ojos?
+kitzuki[enojada]: ¡Dame ese micrófono!
+pausa: 1
+narrador: Kitzuki cantó perfectamente. Nadie lo esperaba.
+yei[sorpresa]: ¡Cantas como un ángel!
+kitzuki[sonrojada]: ...Nadie sale de esta habitación con esa información.
+pausa: 1

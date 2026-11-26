@@ -4,3 +4,5 @@ __pycache__/
 *.wav
 videos/
 *.zip
+chifladas/videos/
+chifladas/logs/

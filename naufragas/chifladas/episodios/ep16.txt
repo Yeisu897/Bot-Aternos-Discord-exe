@@ -1,0 +1,17 @@
+titulo: La dieta de Kirane
+
+fondo: cocina
+musica: alegre
+entra: kirane centro brazos
+kirane[seria]: Desde hoy, dieta de atleta. Nada de dulces.
+entra: yei izq
+yei[feliz]: Qué bien. Entonces no quieres el pastel que traje del café.
+kirane[seria]: No. Soy de acero.
+entra: kitzuki der
+kitzuki[picara]: Es de chocolate con mango.
+pausa: 1
+kirane[triste]: ...
+kirane[timida]: Un pedacito. Por respeto al pastel.
+yei[risa]: Duraste cuatro minutos.
+kitzuki[lentes]: Tres minutos y cuarenta segundos. Lo medí.
+pausa: 1

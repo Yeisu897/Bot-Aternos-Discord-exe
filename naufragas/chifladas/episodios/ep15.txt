@@ -1,0 +1,19 @@
+titulo: El videojuego
+
+fondo: sala_noche
+musica: accion
+entra: kirane der sentada
+entra: kitzuki izq sentada
+kirane[enojada]: ¡Otra vez me ganaste! ¡Haces trampa!
+kitzuki[picara]: Se llama estrategia. Calculo los ángulos.
+kirane[enojada]: ¡Revancha! ¡La última!
+entra: yei centro
+yei[feliz]: ¿Puedo jugar? Nunca he jugado.
+kitzuki[picara]: Claro. Te explico los controles.
+pausa: 1
+sfx: alegria
+yei[risa]: ¡Gané! ¿Eso es ganar?
+kitzuki[sorpresa]: ...¿Cómo? Presionaste botones al azar.
+kirane[risa]: ¡Jajaja! ¡La genio perdió contra la principiante!
+kitzuki[enojada]: ¡Revancha!
+pausa: 1

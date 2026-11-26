@@ -1,0 +1,19 @@
+titulo: Kirane en la piscina
+
+fondo: piscina
+musica: accion
+entra: kirane centro nuca
+narrador: Kirane empezó su curso para ser rescatista profesional.
+instructor: Prueba uno: nadar cuatrocientos metros en menos de ocho minutos.
+kirane[risa]: ¡Ja! Yo nadé en un huracán.
+sfx: chapuzon
+pausa: 1
+instructor: ...¿Seis minutos? Es un récord del curso.
+kirane[feliz]: ¿Lo ven, chicas?
+entra: yei izq
+yei[risa]: ¡Kirane! ¡Kirane! ¡Eres la mejor!
+entra: kitzuki izq2
+kitzuki[nerviosa]: Yo me quedo aquí. Lejos del agua profunda.
+kirane[picara]: Prueba dos: rescatar a una persona que no sabe nadar.
+kitzuki[enojada]: ¡Ni lo pienses, cabeza de alga!
+pausa: 1

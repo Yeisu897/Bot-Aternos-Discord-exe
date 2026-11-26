@@ -11,12 +11,14 @@ import engine  # noqa: E402
 import fondos  # noqa: E402
 
 SFX = {"trueno", "golpe", "chapuzon", "brillo", "sting", "revelacion", "bocina", "latido", "pasos", "rama",
-       "fuego_on", "comico", "alegria", "caida"}
+       "fuego_on", "comico", "alegria", "caida", "timbre", "ladrido", "explosion", "aplausos",
+       "telefono", "bocinazo", "pop"}
 AMB = {"olas", "lluvia", "viento", "selva", "noche", "fuego", "cueva", "barco", "nada"}
 FX = {"lluvia", "niebla", "brillo", "barco", "fuego", "apagado", "noche", "nada"}
 
 problemas = 0
-for path in sorted(glob.glob(os.path.join(ROOT, "episodios", "ep*.txt"))):
+carpetas = sys.argv[1:] or [os.path.join(ROOT, "episodios")]
+for path in sorted(p for c in carpetas for p in glob.glob(os.path.join(c, "ep*.txt"))):
     for n, line in enumerate(open(path, encoding="utf-8"), 1):
         s = line.strip()
         if not s or s.startswith("//"):

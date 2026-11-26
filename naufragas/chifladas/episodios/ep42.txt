@@ -1,0 +1,16 @@
+titulo: Domingo sin celular
+
+fondo: sala
+musica: calma
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[feliz]: Domingo sin celulares. Como en la isla. ¡Entréguenlos!
+kirane[triste]: Adiós, amigo. Te veré mañana.
+kitzuki[nerviosa]: ¿Y si hay un descubrimiento científico importante y no me entero?
+narrador: Una hora después...
+kitzuki[cansada]: Estoy contando las hojas de Florencia. Tiene cuarenta y dos.
+kirane[cansada]: Le enseñé a Capitán Segundo a nadar en círculos. Ya sabía.
+yei[feliz]: ¿Ven? ¡Es divertido! Juguemos a las cartas.
+kirane[risa]: ...Está bien. Pero yo reparto.
+pausa: 1

@@ -1,0 +1,21 @@
+titulo: Rescatista oficial
+
+fondo: piscina
+musica: tension
+entra: kirane centro
+instructor: Examen final. Rescate en aguas profundas con tiempo límite.
+kirane[seria]: Estoy lista.
+entra: yei izq
+entra: kitzuki der
+yei[nerviosa]: ¡Tú puedes, Kirane!
+kitzuki[nerviosa]: Estadísticamente vas a aprobar. Pero igual estoy nerviosa.
+sfx: chapuzon
+musica: accion
+pausa: 1.5
+instructor: Rescate perfecto. Felicidades, rescatista oficial Kirane.
+musica: esperanza
+sfx: aplausos
+kirane[risa]: ¡Lo logré! ¡Teo, lo logré!
+yei[risa]: ¡Abrazo de grupo!
+kitzuki[timida]: ...Estoy orgullosa de ti, cabeza de alga.
+pausa: 1

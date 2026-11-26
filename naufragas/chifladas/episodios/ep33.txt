@@ -1,0 +1,20 @@
+titulo: El rescate del perrito
+
+fondo: calle
+musica: tension
+entra: kirane centro
+entra: yei izq
+sfx: ladrido
+yei[sorpresa]: ¡Un perrito atrapado en el árbol!
+kirane[sorpresa]: ¿Cómo se subió un perro a un árbol?
+yei[nerviosa]: ¡No importa! ¡Ayúdalo!
+kirane[seria]: Rescatista en acción.
+sfx: pasos
+musica: accion
+temblor
+pausa: 1
+kirane[risa]: ¡Lo tengo!
+sfx: ladrido
+vecino: ¡Mi perro! ¡Gracias, señorita! ¡Es una heroína!
+kirane[timida]: No es nada. Es mi trabajo... casi.
+pausa: 1

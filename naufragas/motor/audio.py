@@ -330,6 +330,45 @@ def sfx(name):
         s = np.zeros(int(1.8 * SR))
         for k, f in enumerate([hz("C", 5), hz("E", 5), hz("G", 5), hz("C", 6)]):
             place(s, pluck_fast(f, 1.0, 0.35, 0.9), k * 0.1)
+    elif name == "timbre":
+        s = np.zeros(int(1.4 * SR))
+        place(s, bell(hz("E", 5), 0.9, 0.5), 0)
+        place(s, bell(hz("C", 5), 0.9, 0.5), 0.45)
+    elif name == "ladrido":
+        s = np.zeros(int(1.0 * SR))
+        for k in range(2):
+            n = int(0.16 * SR)
+            t = np.arange(n) / SR
+            b = signal.sawtooth(2 * np.pi * np.cumsum(500 - 900 * t) / SR) * np.exp(-t * 14)
+            b = bandpass(b + 0.3 * np.random.randn(n) * np.exp(-t * 20), 300, 2500)
+            place(s, b, k * 0.32)
+    elif name == "explosion":
+        n = int(2.2 * SR)
+        t = np.arange(n) / SR
+        s = lowpass(noise(n, "brown"), 600) * np.exp(-t * 2.2) * 2 + bandpass(noise(n), 500, 5000) * np.exp(-t * 6)
+        place(s, kick(1.0), 0)
+    elif name == "aplausos":
+        n = int(2.5 * SR)
+        s = np.zeros(n)
+        for _ in range(260):
+            m = int(0.012 * SR)
+            c = bandpass(np.random.randn(m) * np.exp(-np.arange(m) / m * 6), 800, 6000)
+            place(s, c * (0.4 + np.random.rand() * 0.6), np.random.rand() * 2.2)
+        s *= env(n, 0.2, 0.8)
+    elif name == "telefono":
+        s = np.zeros(int(2.0 * SR))
+        for k in range(2):
+            n = int(0.4 * SR)
+            t = np.arange(n) / SR
+            place(s, np.sin(2 * np.pi * 1400 * t) * (np.sin(2 * np.pi * 20 * t) > 0) * 0.5, k * 0.6)
+    elif name == "bocinazo":
+        n = int(0.7 * SR)
+        t = np.arange(n) / SR
+        s = lowpass(signal.square(2 * np.pi * 420 * t) + signal.square(2 * np.pi * 530 * t), 2500) * env(n, 0.01, 0.1)
+    elif name == "pop":
+        n = int(0.15 * SR)
+        t = np.arange(n) / SR
+        s = np.sin(2 * np.pi * np.cumsum(300 + 1200 * t * 6) / SR) * np.exp(-t * 30)
     elif name == "caida":
         n = int(1.2 * SR)
         t = np.arange(n) / SR

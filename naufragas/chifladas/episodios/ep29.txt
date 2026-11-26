@@ -1,0 +1,20 @@
+titulo: El examen
+
+fondo: sala_noche
+musica: tension
+entra: kitzuki centro sentada
+kitzuki[nerviosa]: Examen mañana. Llevo doce horas estudiando. Sé todo. No sé nada.
+entra: yei izq
+yei[feliz]: Te traje té y galletas.
+entra: kirane der
+kirane[seria]: Yo te hago preguntas. ¿Qué es la fotosíntesis?
+kitzuki[lentes]: Proceso por el cual las plantas convierten luz en energía química.
+kirane[sorpresa]: ...Está bien, creo. No sé. Lo dijiste muy rápido.
+kitzuki[cansada]: Me voy a desmayar.
+fundido
+fondo: aula
+musica: esperanza
+entra: kitzuki centro
+profesor: Señorita Kitzuki, nota perfecta. Felicidades.
+kitzuki[risa]: ¡Sí! ¡Gracias, chicas!
+pausa: 1

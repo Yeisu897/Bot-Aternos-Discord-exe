@@ -1,0 +1,17 @@
+titulo: Un solo paraguas
+
+fondo: calle
+efecto: lluvia
+musica: calma
+ambiente: lluvia
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[nerviosa]: Empezó a llover y solo traje un paraguas.
+kitzuki[lentes]: Un paraguas de un metro. Tres personas. Es matemáticamente imposible.
+kirane[seria]: Imposible era sobrevivir a un huracán.
+narrador: Se apretujaron las tres bajo el pequeño paraguas.
+kitzuki[cansada]: Tengo el codo de Kirane en la oreja.
+kirane[molesta]: Y yo tu cola de pelo en la boca.
+yei[risa]: ¡Jajaja! ¡Igual que en el refugio!
+pausa: 1

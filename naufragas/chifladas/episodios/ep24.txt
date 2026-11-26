@@ -1,0 +1,16 @@
+titulo: Famosas por un día
+
+fondo: calle
+musica: alegre
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+narrador: Después de la entrevista, todo el barrio las reconocía.
+cliente: ¡Son ellas! ¡Las del mono!
+yei[nerviosa]: ¿Nos están siguiendo?
+kirane[risa]: ¡Somos famosas! ¿Quieren un autógrafo?
+kitzuki[cansada]: Solo quiero comprar pan sin que me pregunten por el mono.
+vecino: Señorita, ¿es verdad que hizo fuego con sus lentes?
+kitzuki[picara]: Y puedo volver a hacerlo. Retroceda.
+sfx: comico
+pausa: 1

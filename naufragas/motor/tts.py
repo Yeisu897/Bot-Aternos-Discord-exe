@@ -25,6 +25,13 @@ VOCES = {
     "kirane": dict(voz="mb-es3", vel=172, tono=50, f0=225, rango=1.15, timbre=0.97, vol=1.0),
     "abuela": dict(voz="mb-es3", vel=128, tono=45, f0=175, rango=0.8, timbre=0.96, vol=1.0),
     "marinero": dict(voz="mb-es1", vel=160, tono=40, timbre=1.0, vol=1.0),
+    "teo": dict(voz="mb-es3", vel=178, tono=60, f0=300, rango=1.4, timbre=1.12, vol=1.0),
+    "jefa": dict(voz="mb-es3", vel=160, tono=50, f0=185, rango=1.0, timbre=0.95, vol=1.0),
+    "periodista": dict(voz="mb-es3", vel=170, tono=50, f0=210, rango=1.2, timbre=1.0, vol=1.0),
+    "profesor": dict(voz="mb-es2", vel=140, tono=35, timbre=1.0, vol=1.0),
+    "vecino": dict(voz="mb-es1", vel=150, tono=45, timbre=1.0, vol=1.0),
+    "cliente": dict(voz="mb-es1", vel=165, tono=50, timbre=1.03, vol=1.0),
+    "instructor": dict(voz="mb-es2", vel=165, tono=45, timbre=1.0, vol=1.0),
     "narrador": dict(voz="mb-es2", vel=140, tono=38, timbre=1.0, vol=0.95),
     "otro": dict(voz="mb-es1", vel=155, tono=45, timbre=1.0, vol=1.0),
 }

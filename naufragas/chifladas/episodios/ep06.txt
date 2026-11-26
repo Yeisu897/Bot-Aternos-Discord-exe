@@ -1,0 +1,19 @@
+titulo: Noche de películas
+
+fondo: sala_noche
+musica: calma
+entra: yei centro sentada
+entra: kitzuki izq sentada
+entra: kirane der sentada
+yei[feliz]: ¡Noche de películas! Elegí una muy bonita.
+kirane[feliz]: ¿De qué trata?
+yei[timida]: De... tres chicas que naufragan en una isla.
+kitzuki[enojada]: ¡No! ¡Ya vivimos esa película!
+kirane[risa]: ¡Jajaja! Pongamos una de terror.
+kitzuki[nerviosa]: Una de terror... está bien. No tengo miedo. Es todo falso.
+sfx: golpe
+kitzuki[miedo]: ¡Kyaaa!
+temblor
+yei[risa]: ¡Kitzuki saltó hasta el techo!
+kitzuki[avergonzada]: ...Fue un reflejo científico.
+pausa: 1

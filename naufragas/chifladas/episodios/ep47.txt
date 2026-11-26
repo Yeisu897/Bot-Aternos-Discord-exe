@@ -1,0 +1,16 @@
+titulo: El cumpleaños de la abuela
+
+fondo: jardin
+musica: romance
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[feliz]: ¡Feliz cumpleaños, abuela Marina!
+abuela: Gracias, mis niñas. Las tres son mis nietas ahora.
+kitzuki[timida]: Le hicimos un regalo. Un álbum de fotos de la isla.
+kirane[feliz]: Con dibujos de Teo. Y una foto del mono.
+abuela: ¡Capitán! ¡Mi viejo amigo!
+abuela: Cuando estuve sola en esa isla, soñaba con tener una familia así.
+yei[triste]: Ahora la tienes, abuela.
+sfx: alegria
+pausa: 1

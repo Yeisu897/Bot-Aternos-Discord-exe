@@ -1,0 +1,18 @@
+titulo: El supermercado
+
+fondo: super
+musica: alegre
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+kitzuki[lentes]: Hice una lista. Comprar solo lo necesario. Presupuesto ajustado.
+yei[risa]: ¡Mangos! ¡Diez kilos de mangos!
+kitzuki[enojada]: ¡Eso no está en la lista!
+kirane[feliz]: Agua embotellada. Cien botellas. Por si acaso.
+kitzuki[sorpresa]: ¡Hay agua en el grifo!
+kirane[seria]: Eso decías de la cascada, y mira lo que pasó.
+kitzuki[cansada]: No pasó nada con la cascada...
+cliente: Disculpen, ¿ustedes no son las náufragas de la tele?
+yei[nerviosa]: ¡N-no! Somos... tres chicas normales... comprando cien botellas de agua.
+sfx: comico
+pausa: 1

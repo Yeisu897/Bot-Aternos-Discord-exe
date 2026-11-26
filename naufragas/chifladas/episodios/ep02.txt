@@ -1,0 +1,18 @@
+titulo: Una sola ducha
+
+fondo: sala
+musica: alegre
+entra: kitzuki izq
+entra: kirane der
+narrador: Siete de la mañana. Tres chicas. Un solo baño.
+kitzuki[cansada]: Necesito mi ducha de tres horas. Lo prometí en la isla.
+kirane[enojada]: ¡Tengo entrenamiento a las ocho! ¡Yo primero!
+sfx: pasos
+entra: yei centro
+yei[risa]: ¡Buenos días! Ya me bañé. Me levanté a las cinco.
+kirane[sorpresa]: ¡¿A las cinco?!
+yei[timida]: Y usé toda el agua caliente. Perdón.
+sfx: comico
+kitzuki[triste]: ...Estábamos mejor en la cascada.
+kirane[molesta]: Mañana hacemos un horario. Con turnos. Y con cronómetro.
+pausa: 1

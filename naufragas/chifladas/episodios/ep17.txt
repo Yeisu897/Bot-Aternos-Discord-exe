@@ -1,0 +1,21 @@
+titulo: Yei en bicicleta
+
+fondo: parque
+musica: alegre
+ambiente: viento
+entra: yei centro
+entra: kirane der
+yei[nerviosa]: Nunca aprendí a andar en bici. La abuela no me dejaba.
+kirane[seria]: Tranquila. Yo te sostengo. Pedalea.
+yei[miedo]: ¡No me sueltes! ¡No me sueltes!
+kirane[feliz]: No te suelto.
+pausa: 1
+entra: kitzuki izq
+kitzuki[picara]: Yei, Kirane te soltó hace cien metros.
+yei[sorpresa]: ¡¿Qué?! ¡Estoy andando sola!
+yei[risa]: ¡Estoy andando sola!
+sfx: golpe
+temblor
+yei[cansada]: ...Y me caí en el arbusto.
+kirane[risa]: ¡Pero lo lograste!
+pausa: 1

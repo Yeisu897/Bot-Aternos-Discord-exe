@@ -1,0 +1,17 @@
+titulo: La abuela cocina
+
+fondo: cocina
+musica: calma
+entra: yei centro
+entra: kirane der
+entra: kitzuki izq
+abuela: Muchachas, hoy les enseño mi receta secreta de la isla.
+yei[feliz]: ¡La abuela Marina es la mejor cocinera del mundo!
+abuela: Primero, el coco. Kirane, tú que eres fuerte, ábrelo.
+kirane[seria]: Entendido.
+sfx: golpe
+temblor
+kitzuki[sorpresa]: ...Rompiste la mesa. No el coco. La mesa.
+kirane[timida]: El coco sigue intacto. Es muy resistente.
+abuela: ¡Jajaja! Igualita a mí a los diecinueve.
+pausa: 1

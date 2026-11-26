@@ -1,0 +1,19 @@
+titulo: Kirane cocina
+
+fondo: cocina
+musica: alegre
+entra: kirane centro brazos
+kirane[feliz]: Hoy la cena la hago yo. Pescado, como en la isla.
+entra: yei izq
+yei[nerviosa]: Kirane, en la isla lo cocinábamos en una fogata.
+kirane[risa]: Fuego es fuego. Pongo la estufa al máximo y listo.
+entra: kitzuki der
+kitzuki[sorpresa]: ¿Eso es humo? ¿Por qué hay tanto humo?
+sfx: explosion
+temblor
+pausa: 1
+kirane[timida]: ...Creo que el pescado se fue a la isla otra vez.
+kitzuki[enojada]: ¡La alarma! ¡Abran las ventanas!
+yei[risa]: ¡Jajaja! ¿Pedimos pizza?
+kirane[triste]: Pidamos pizza.
+pausa: 1

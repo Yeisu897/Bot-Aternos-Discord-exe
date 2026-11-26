@@ -82,3 +82,21 @@ sonrojada, sorpresa, lentes), Kirane (feliz, risa, normal, molesta, triste, sorp
 preocupada, enojada). Otras emociones se asignan al retrato más parecido.
 
 Las voces se ajustan en `motor/tts.py` (`VOCES`: tono base `f0`, rango, velocidad, timbre).
+
+---
+
+# Las 3 Chifladas: la vida después de la isla
+
+Continuación en 50 episodios cortos (25-45 s): comedia del día a día de Yei, Kitzuki y Kirane
+viviendo juntas en un departamento junto al mar. Guiones en `chifladas/episodios/`, título de la
+serie en `chifladas/serie.txt`.
+
+```bash
+python3 tools/validar.py chifladas/episodios
+ls chifladas/episodios/ep*.txt | xargs -P 4 -I{} python3 motor/engine.py {}   # -> chifladas/videos/
+```
+
+Fondos nuevos: `sala`, `sala_noche`, `cocina`, `cuarto_noche`, `calle`, `parque`, `cafe`, `super`,
+`aula`, `piscina`, `feria`. Personajes secundarios (hablan fuera de cuadro): `teo`, `abuela`, `jefa`,
+`profesor`, `periodista`, `vecino`, `cliente`, `instructor`. Efectos nuevos: `timbre`, `ladrido`,
+`explosion`, `aplausos`, `telefono`, `bocinazo`, `pop`.

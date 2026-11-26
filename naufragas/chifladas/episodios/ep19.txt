@@ -1,0 +1,17 @@
+titulo: Picnic en el parque
+
+fondo: parque
+musica: calma
+ambiente: viento
+entra: yei centro sentada
+entra: kitzuki izq sentada
+entra: kirane der sentada
+yei[feliz]: ¡Sándwiches, jugo y mangos! Un picnic perfecto.
+kitzuki[pensativa]: Esa nube tiene forma de cascada.
+kirane[picara]: Esa tiene forma de cuatro ojos.
+kitzuki[enojada]: Y esa de cabeza de alga.
+sfx: ladrido
+kirane[sorpresa]: ¡Un perro! ¡Se está llevando los sándwiches!
+yei[risa]: ¡Es otro Capitán!
+kitzuki[cansada]: El universo nos persigue con animales ladrones.
+pausa: 1

@@ -1,0 +1,16 @@
+titulo: Kitzuki resfriada
+
+fondo: sala
+musica: triste
+entra: kitzuki centro acostada
+kitzuki[cansada]: Me muero. Este es mi fin. Díganle al mundo que fui brillante.
+entra: yei izq
+yei[preocupada]: Kitzuki, solo tienes un resfriado.
+kitzuki[cansada]: Treinta y siete con dos de temperatura. Es grave.
+entra: kirane der
+kirane[risa]: En la isla tuviste cuarenta de fiebre y no te quejaste tanto.
+kitzuki[cansada]: En la isla no tenía un sofá donde ser dramática.
+yei[feliz]: Te hice sopa de pollo.
+kirane[timida]: Y yo te traje tu libro favorito.
+kitzuki[timida]: ...Ya me siento mejor. Pero quédense.
+pausa: 1

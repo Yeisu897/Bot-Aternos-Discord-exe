@@ -1,0 +1,17 @@
+titulo: Campamento en la sala
+
+fondo: sala_noche
+musica: romance
+entra: yei centro sentada
+entra: kitzuki izq sentada
+entra: kirane der sentada
+yei[timida]: ¿No extrañan la isla a veces?
+kirane[timida]: Un poco. Las estrellas eran increíbles.
+kitzuki[pensativa]: Y el sonido de las olas.
+yei[feliz]: ¡Tengo una idea! ¡Acampemos en la sala!
+narrador: Armaron una carpa con sábanas, encendieron una linterna y pusieron sonido de olas.
+ambiente: olas
+kirane[feliz]: Es igualito. Solo falta el mono robando comida.
+kitzuki[picara]: Kirane, tú te comiste la mitad de los malvaviscos.
+kirane[timida]: ...Soy el mono ahora.
+pausa: 1

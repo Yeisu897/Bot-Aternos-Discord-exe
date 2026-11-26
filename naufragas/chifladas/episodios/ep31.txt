@@ -1,0 +1,15 @@
+titulo: La planta de Kitzuki
+
+fondo: sala
+musica: calma
+entra: kitzuki centro
+kitzuki[timida]: Les presento a Florencia. Es la planta de flores amarillas que me salvó en la isla.
+entra: yei izq
+yei[sorpresa]: ¿Trajiste una semilla de la isla?
+kitzuki[sonrojada]: La guardé en el bolsillo. Por sentimentalismo... científico.
+entra: kirane der
+kirane[picara]: ¿Le hablas a la planta?
+kitzuki[avergonzada]: Está comprobado que el sonido ayuda al crecimiento.
+kirane[timida]: ...Hola, Florencia. Gracias por salvar a esta cuatro ojos.
+yei[risa]: ¡Jijiji! Ahora todas le hablamos.
+pausa: 1

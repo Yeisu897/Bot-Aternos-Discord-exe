@@ -1,0 +1,18 @@
+titulo: La feria
+
+fondo: feria
+musica: alegre
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[risa]: ¡La feria! ¡Luces, algodón de azúcar y la rueda gigante!
+kirane[feliz]: ¡Juego de tiro! ¡Te gano un peluche, Yei!
+sfx: pop
+sfx: pop
+kirane[risa]: ¡Gané! ¡Un mono de peluche!
+kitzuki[cansada]: Claro. Tenía que ser un mono.
+yei[feliz]: ¡Se llama Capitán Tercero!
+kitzuki[nerviosa]: ¿Subimos a la rueda? Es muy alta...
+kirane[timida]: Te tomo de la mano. Como en la montaña.
+kitzuki[sonrojada]: ...Está bien.
+pausa: 1

@@ -1,0 +1,15 @@
+titulo: Pijamada con Teo
+
+fondo: sala_noche
+musica: alegre
+entra: kirane centro sentada
+entra: yei izq sentada
+entra: kitzuki der sentada
+teo: ¡Pijamada! ¡Quiero escuchar la historia de la isla!
+kirane[picara]: Había una vez una salvavidas increíble, valiente y hermosa...
+kitzuki[picara]: Y dos chicas que la salvaron cada vez que hizo una tontería.
+kirane[enojada]: ¡Oye!
+yei[feliz]: Y una cueva con rosas mágicas.
+teo: ¿Y el mono? ¡Quiero saber del mono!
+narrador: Contaron la historia hasta las tres de la mañana. Teo se durmió en la parte del mono.
+pausa: 1

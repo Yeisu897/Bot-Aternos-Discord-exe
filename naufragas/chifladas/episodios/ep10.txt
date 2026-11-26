@@ -1,0 +1,16 @@
+titulo: Kitzuki va a la universidad
+
+fondo: aula
+musica: calma
+entra: kitzuki centro
+profesor: Hoy hablaremos de cómo sobrevivir en una isla desierta.
+kitzuki[picara]: Interesante. Continúe.
+profesor: Primero, nunca beban agua de mar.
+kitzuki[lentes]: Correcto. Aunque algunas lo intentan igual. Tengo una amiga así.
+profesor: Segundo, hagan fuego frotando dos palos.
+kitzuki[seria]: Incorrecto. Es mucho más fácil con lentes y sol.
+profesor: ...Señorita, ¿usted ha estado en una isla desierta?
+kitzuki[picara]: Treinta y cuatro días, profesor.
+sfx: aplausos
+kitzuki[sonrojada]: ...No esperaba aplausos.
+pausa: 1

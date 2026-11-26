@@ -1,0 +1,17 @@
+titulo: El primer día de Yei
+
+fondo: cafe
+musica: alegre
+entra: yei centro
+narrador: Yei consiguió trabajo en una cafetería junto al puerto.
+jefa: Bienvenida, Yei. Solo sonríe y sirve el café. Fácil.
+yei[risa]: ¡Sonreír es mi superpoder!
+entra: kirane der
+entra: kitzuki izq
+kirane[picara]: Buenas. Un café... y un mango asado.
+yei[nerviosa]: ¡No hay mangos en el menú!
+kitzuki[picara]: Qué mal servicio. Le pondré una estrella.
+yei[enojada]: ¡Vinieron solo a molestarme!
+kirane[timida]: Vinimos a apoyarte, tonta. Toma, te trajimos flores.
+yei[timida]: ...Chicas.
+pausa: 1

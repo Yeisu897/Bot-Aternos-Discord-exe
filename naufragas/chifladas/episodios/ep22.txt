@@ -1,0 +1,17 @@
+titulo: La rueda de tareas
+
+fondo: sala
+musica: alegre
+entra: kitzuki centro
+entra: yei izq
+entra: kirane der
+kitzuki[lentes]: Hice una rueda de tareas. Cada semana gira. Sin discusiones.
+kirane[molesta]: A mí me tocó el baño. Otra vez.
+kitzuki[seria]: La rueda es imparcial.
+yei[sorpresa]: Kitzuki, a ti te tocó "descansar".
+kirane[enojada]: ¡¿Descansar es una tarea?!
+kitzuki[nerviosa]: Es... una tarea de supervisión.
+kirane[enojada]: ¡Dame esa rueda!
+sfx: golpe
+yei[risa]: ¡Jajaja! ¡Rompieron la rueda!
+pausa: 1

@@ -1,0 +1,19 @@
+titulo: Día de spa
+
+fondo: sala
+musica: romance
+entra: yei centro sentada
+entra: kitzuki izq sentada
+yei[feliz]: ¡Día de spa! Mascarillas de pepino, uñas y música relajante.
+kitzuki[cansada]: Esto es lo mejor que me ha pasado desde el rescate.
+sfx: pasos
+entra: kirane der
+kirane[sorpresa]: ¿Por qué tienen la cara verde? ¿Están enfermas?
+yei[risa]: ¡Es una mascarilla! Ven, te pongo una.
+kirane[molesta]: Ni loca. Las salvavidas no usan pepino en la cara.
+pausa: 1
+narrador: Diez minutos después...
+kirane[timida]: ...Esto es muy relajante. No le digan a nadie.
+kitzuki[picara]: Ya le tomé una foto para Teo.
+kirane[enojada]: ¡Kitzuki!
+pausa: 1

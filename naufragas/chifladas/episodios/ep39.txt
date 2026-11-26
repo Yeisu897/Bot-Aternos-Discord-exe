@@ -1,0 +1,17 @@
+titulo: El reto de no quejarse
+
+fondo: sala
+musica: alegre
+entra: kitzuki centro
+entra: yei izq
+entra: kirane der
+yei[feliz]: Reto: un día entero sin quejarnos. La que se queje lava los platos.
+kirane[risa]: Fácil.
+kitzuki[picara]: Facilísimo.
+sfx: golpe
+kirane[enojada]: ¡Ay, mi dedo! ¡Esta estúpida mesa!
+yei[picara]: ¡Te quejaste!
+kirane[enojada]: ¡No es justo!
+kitzuki[picara]: Y eso fue otra queja.
+kirane[triste]: ...Voy a lavar platos hasta el año que viene.
+pausa: 1

@@ -1,0 +1,18 @@
+titulo: Yoga matutino
+
+fondo: parque
+musica: calma
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[feliz]: Respiren profundo. Ahora, posición del árbol.
+kirane[seria]: Fácil. Equilibrio de salvavidas.
+kitzuki[nerviosa]: Estoy temblando como una hoja.
+yei[feliz]: Ahora, posición del gato.
+kirane[picara]: Esa es la especialidad de Kitzuki.
+kitzuki[enojada]: ¡¿Por qué?!
+kirane[risa]: Por las orejitas.
+sfx: golpe
+temblor
+yei[risa]: ¡Se cayeron las dos! ¡Así no es el yoga!
+pausa: 1

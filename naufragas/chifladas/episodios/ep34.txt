@@ -1,0 +1,19 @@
+titulo: Concurso de cocina
+
+fondo: cocina
+musica: accion
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+abuela: ¡Concurso de cocina! El que gane, no lava platos por un mes.
+kitzuki[lentes]: Seguiré la receta con precisión de laboratorio.
+yei[feliz]: Yo pondré mangos. En todo.
+kirane[seria]: Yo... no voy a explotar nada esta vez.
+sfx: explosion
+temblor
+kirane[triste]: ...Casi.
+abuela: Veamos. Kitzuki, perfecto pero sin alma. Yei, demasiado mango. Kirane...
+kirane[nerviosa]: ¿Sí?
+abuela: Carbonizado. Pero me recuerda a la isla. ¡Gana Kirane!
+kirane[risa]: ¡Jajaja! ¡Sí!
+pausa: 1

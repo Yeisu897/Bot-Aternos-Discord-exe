@@ -1,0 +1,18 @@
+titulo: Corte de pelo
+
+fondo: sala
+musica: calma
+entra: yei centro
+yei[nerviosa]: Voy a cortarme el flequillo yo sola. Vi un tutorial.
+entra: kitzuki izq
+kitzuki[nerviosa]: Yei, eso nunca termina bien.
+yei[feliz]: Un cortecito por aquí... otro por allá...
+pausa: 1
+entra: kirane der
+kirane[sorpresa]: ...¿Qué le pasó a tu flequillo?
+yei[triste]: Está un poquito torcido.
+kitzuki[lentes]: Unos quince grados.
+kirane[risa]: Te ves como el mono Capitán.
+yei[enojada]: ¡Kirane!
+kitzuki[timida]: Mentira. Te ves linda. Y crecerá.
+pausa: 1

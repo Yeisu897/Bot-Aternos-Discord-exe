@@ -1,0 +1,17 @@
+titulo: Capitán Segundo
+
+fondo: sala
+musica: alegre
+entra: kirane centro
+entra: yei izq
+entra: kitzuki der
+kirane[risa]: ¡Chicas! ¡Les presento al nuevo miembro de la familia!
+yei[sorpresa]: ¿Es... un pez dorado?
+kirane[feliz]: Se llama Capitán Segundo. Como el mono, pero sin robar.
+kitzuki[pensativa]: Técnicamente, un pez no puede robar mangos.
+kirane[picara]: Por eso es el mejor Capitán.
+yei[risa]: ¡Hola, Capitán Segundo! Te daremos mucho amor.
+kitzuki[timida]: ...Y la cantidad correcta de comida. Ni una escama de más.
+narrador: Esa noche, Kitzuki habló con el pez durante una hora sobre biología marina.
+kitzuki[sonrojada]: ¡Nadie tenía que saber eso!
+pausa: 1

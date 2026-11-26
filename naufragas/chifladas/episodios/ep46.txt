@@ -1,0 +1,17 @@
+titulo: La guerra del control remoto
+
+fondo: sala_noche
+musica: accion
+entra: kirane der sentada
+entra: kitzuki izq sentada
+kirane[enojada]: ¡Quiero ver el partido!
+kitzuki[enojada]: ¡Documental de pingüinos!
+kirane[enojada]: ¡Dame el control!
+kitzuki[enojada]: ¡Primero muerta!
+temblor
+entra: yei centro
+yei[feliz]: ¿Qué hacen? Ya puse una película de dibujos animados.
+kirane[sorpresa]: ¿Cómo tienes el control?
+yei[picara]: Mientras peleaban, lo tomé. Estrategia.
+kitzuki[cansada]: Fuimos derrotadas por la inocente.
+pausa: 1

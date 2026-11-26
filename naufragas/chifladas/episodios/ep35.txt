@@ -1,0 +1,18 @@
+titulo: El mueble imposible
+
+fondo: sala
+musica: alegre
+entra: kitzuki centro sentada
+entra: kirane der
+entra: yei izq
+kitzuki[lentes]: Instrucciones: armar el librero en treinta minutos.
+kirane[seria]: Las instrucciones son para débiles.
+narrador: Tres horas después...
+kirane[cansada]: Sobran cuarenta tornillos.
+yei[nerviosa]: Y está al revés.
+kitzuki[cansada]: Construimos un refugio en una isla con palos y hojas...
+kitzuki[enojada]: ¡Y no podemos con un librero sueco!
+sfx: golpe
+temblor
+yei[risa]: ¡Se cayó otra vez!
+pausa: 1

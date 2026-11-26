@@ -1,0 +1,19 @@
+titulo: Teo de visita
+
+fondo: sala
+musica: alegre
+sfx: timbre
+entra: kirane centro
+teo: ¡Hermanaaa!
+kirane[risa]: ¡Teo! ¡Llegaste!
+entra: yei izq
+entra: kitzuki der
+teo: ¿Ustedes son las chicas de la isla? ¿Es verdad que pelearon con un mono?
+yei[risa]: Le pusimos nombre y todo.
+teo: ¿Y quién es la más valiente?
+kirane[picara]: Yo, obvio.
+kitzuki[picara]: La que lloró con la película de terror no puede decir eso.
+kirane[enojada]: ¡Esa fuiste tú!
+teo: Hermana, tus amigas son geniales.
+kirane[timida]: ...Sí. Lo son.
+pausa: 1

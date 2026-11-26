@@ -1,0 +1,17 @@
+titulo: La gran presentación
+
+fondo: aula
+musica: tension
+entra: kitzuki centro
+kitzuki[nerviosa]: Tengo que presentar mi investigación frente a cien personas.
+entra: yei izq
+entra: kirane der
+yei[feliz]: Vinimos a apoyarte. ¡Con carteles!
+kirane[picara]: El mío dice: Vamos, cuatro ojos.
+kitzuki[avergonzada]: ...Gracias. Creo.
+profesor: Adelante, señorita.
+kitzuki[lentes]: Mi investigación: cómo tres personas sobreviven en una isla. Conclusión principal...
+kitzuki[timida]: No se sobrevive con conocimiento. Se sobrevive con amigas.
+sfx: aplausos
+musica: esperanza
+pausa: 1

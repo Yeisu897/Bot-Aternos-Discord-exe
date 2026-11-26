@@ -1,0 +1,18 @@
+titulo: El admirador secreto
+
+fondo: sala
+musica: romance
+entra: yei centro
+entra: kirane der
+entra: kitzuki izq
+yei[sorpresa]: ¡Me llegó una carta! Dice: Para la chica más bonita del edificio.
+kirane[picara]: ¡Uuuh! ¡Yei tiene un admirador!
+kitzuki[lentes]: Analicemos la letra. Grande, torcida, con dibujos de dinosaurios.
+kirane[sorpresa]: Espera... esos dinosaurios los conozco.
+sfx: timbre
+teo: ¿Le llegó mi carta a Yei?
+kirane[enojada]: ¡Teo! ¡Tienes nueve años!
+yei[risa]: ¡Qué tierno! Gracias, Teo.
+teo: Puedo esperar. Soy paciente.
+kitzuki[risa]: ¡Jajaja! Este niño llegará lejos.
+pausa: 1

@@ -1,0 +1,20 @@
+titulo: El apagón
+
+fondo: sala_noche
+musica: misterio
+entra: yei centro
+entra: kirane der
+entra: kitzuki izq
+sfx: golpe
+narrador: Una noche, se fue la luz en todo el barrio.
+yei[miedo]: ¡No veo nada!
+kirane[risa]: Tranquilas. Somos expertas en oscuridad.
+kitzuki[seria]: Correcto. Protocolo de la isla.
+efecto: brillo
+sfx: brillo
+yei[sorpresa]: ¡El amuleto todavía brilla!
+kirane[feliz]: Y yo traje velas. Y malvaviscos.
+kitzuki[timida]: Es como volver a la fogata.
+yei[feliz]: Cuéntenme historias como en la isla.
+efecto: nada
+pausa: 1

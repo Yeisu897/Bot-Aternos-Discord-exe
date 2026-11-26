@@ -1,0 +1,20 @@
+titulo: La entrevista
+
+fondo: sala
+musica: tension
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+periodista: ¡Estamos en vivo con las náufragas del Aurora Celeste!
+yei[nerviosa]: ¡H-hola, mundo!
+periodista: ¿Qué fue lo más difícil de la isla?
+kirane[seria]: Vivir con Kitzuki.
+kitzuki[seria]: Vivir con Kirane.
+periodista: ¿Y lo mejor?
+yei[feliz]: Conocernos.
+kirane[timida]: ...Eso.
+kitzuki[timida]: Lo mismo.
+periodista: Qué tiernas. ¿Algún consejo para el público?
+kirane[picara]: Nunca confíen en un mono.
+sfx: aplausos
+pausa: 1

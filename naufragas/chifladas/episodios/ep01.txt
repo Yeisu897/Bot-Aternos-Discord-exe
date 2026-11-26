@@ -1,0 +1,28 @@
+titulo: La mudanza
+
+fondo: calle
+musica: alegre
+ambiente: viento
+narrador: Un mes después del rescate, las tres náufragas se mudaron juntas a un departamento junto al mar.
+entra: yei centro
+entra: kirane der brazos
+entra: kitzuki izq
+yei[risa]: ¡Nuestro propio departamento! ¡Con techo de verdad!
+kirane[feliz]: Y sin monos ladrones.
+kitzuki[cansada]: Y con ascensor... que está descompuesto. Cuarto piso. Por las escaleras.
+kirane[risa]: ¡Vamos, cuatro ojos! Subiste una montaña.
+kitzuki[enojada]: ¡Con veinte cajas de libros no!
+fundido
+
+fondo: sala
+musica: calma
+entra: yei centro
+entra: kirane der
+entra: kitzuki izq sentada
+yei[feliz]: Primera regla de la casa: nada de peleas.
+kirane[picara]: Segunda regla: el sofá grande es mío.
+kitzuki[picara]: Tercera regla: ya estoy sentada en él.
+kirane[enojada]: ¡Oye!
+yei[risa]: Jijiji. Bienvenidas a casa, chifladas.
+sfx: alegria
+pausa: 1

@@ -1,0 +1,20 @@
+titulo: Las 3 chifladas para siempre
+
+fondo: playa_atardecer
+musica: tema
+ambiente: olas
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+narrador: Un año después del naufragio, las tres volvieron a la playa al atardecer.
+kirane[feliz]: Un año. Parece que fue ayer que Yei gritaba en la arena.
+yei[risa]: ¡Y Kirane me gritaba que dejara de gritar!
+kitzuki[picara]: Y yo intentaba seguir inconsciente.
+kirane[timida]: ¿Saben? Explotamos cocinas, rompimos muebles, peleamos por el control...
+kitzuki[timida]: Pero no cambiaría ni un día.
+yei[feliz]: Entonces, ¿qué hacemos el próximo año?
+kirane[picara]: ¿Un viaje en crucero?
+kitzuki[enojada]: ¡NI LOCA!
+yei[risa]: ¡Jajaja! ¡Las tres chifladas, para siempre!
+sfx: alegria
+pausa: 1.5

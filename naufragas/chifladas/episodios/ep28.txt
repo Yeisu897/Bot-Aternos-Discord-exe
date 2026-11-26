@@ -1,0 +1,21 @@
+titulo: La fiesta sorpresa
+
+fondo: sala
+musica: misterio
+entra: yei centro
+entra: kirane der
+yei[nerviosa]: Shh. Kitzuki llega en cinco minutos. ¿Tienes el pastel?
+kirane[seria]: Lo tengo. Escondido en el horno.
+yei[sorpresa]: ¡¿En el horno?! ¡¿Está encendido?!
+kirane[sorpresa]: ...¿Por qué el horno estaría encendido?
+sfx: explosion
+temblor
+kirane[triste]: Ah. Por eso.
+sfx: timbre
+entra: kitzuki izq
+musica: alegre
+yei[risa]: ¡Sorpresa! ¡Feliz cumpleaños!
+kitzuki[sorpresa]: ¿Por qué hay humo y un pastel quemado?
+kirane[timida]: Es un pastel... estilo isla. Ahumado.
+kitzuki[risa]: ¡Jajaja! Es el mejor cumpleaños de mi vida.
+pausa: 1

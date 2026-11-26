@@ -1,0 +1,18 @@
+titulo: Día de playa
+
+fondo: playa_dia
+musica: alegre
+ambiente: olas
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der nuca
+kirane[risa]: ¡Día de playa! ¡Por diversión esta vez!
+kitzuki[cansada]: Tengo protector solar factor cien. Y una sombrilla. Y otra sombrilla.
+yei[feliz]: ¡Hagamos un castillo de arena!
+kirane[feliz]: Yo hago la torre. Kitzuki, el foso.
+kitzuki[lentes]: Calculé la estructura. Resistirá la marea.
+sfx: chapuzon
+pausa: 1
+kitzuki[triste]: ...No resistió la marea.
+yei[risa]: ¡Construyamos otro!
+pausa: 1

@@ -1,0 +1,20 @@
+titulo: El partido de fútbol
+
+fondo: parque
+musica: accion
+ambiente: viento
+entra: yei izq
+entra: kitzuki centro
+entra: kirane der nuca
+kirane[seria]: Partido contra los vecinos. Yo ataco, Yei defiende, Kitzuki portera.
+kitzuki[lentes]: Calcularé la trayectoria de cada tiro.
+vecino: ¡Ahí va el balón!
+sfx: golpe
+temblor
+kitzuki[cansada]: ...Calculé bien. Pero no me moví.
+kirane[enojada]: ¡Te dio en la cara!
+pausa: 1
+sfx: aplausos
+yei[risa]: ¡Gol! ¡Metí un gol! ¿En qué arco era?
+kirane[cansada]: ...En el nuestro, Yei.
+pausa: 1

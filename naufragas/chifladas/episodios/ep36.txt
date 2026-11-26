@@ -1,0 +1,22 @@
+titulo: El fantasma
+
+fondo: cuarto_noche
+musica: misterio
+entra: yei centro sentada
+sfx: rama
+yei[miedo]: ¿Escucharon eso? Hay ruidos en la cocina.
+entra: kirane der
+kirane[nerviosa]: ¿Un ladrón?
+entra: kitzuki izq
+kitzuki[nerviosa]: Los fantasmas no existen. Estadísticamente.
+sfx: latido
+musica: tension
+fondo: cocina
+kirane[enojada]: ¡Te atrapé!
+temblor
+musica: alegre
+sfx: comico
+yei[sorpresa]: ...¿Abuela?
+abuela: Tenía hambre. ¿Quedan mangos?
+kitzuki[cansada]: El fantasma era una abuela con insomnio.
+pausa: 1

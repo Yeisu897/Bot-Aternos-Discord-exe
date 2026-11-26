@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import audio  # noqa: E402
 import fondos  # noqa: E402
+import fondos_ciudad  # noqa: E402,F401
 import tts  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -49,7 +50,14 @@ ALIAS = {
                "nerviosa": "preocupada", "avergonzada": "timida", "sonrojada": "timida"},
 }
 EXTRAS = {"abuela": dict(nombre="Abuela Marina", color=(240, 170, 190), acento=(120, 60, 80)),
-          "marinero": dict(nombre="Marinero", color=(150, 180, 220), acento=(40, 60, 90))}
+          "marinero": dict(nombre="Marinero", color=(150, 180, 220), acento=(40, 60, 90)),
+          "teo": dict(nombre="Teo", color=(255, 200, 90), acento=(120, 80, 20)),
+          "profesor": dict(nombre="Profesor", color=(180, 160, 140), acento=(70, 60, 50)),
+          "jefa": dict(nombre="Jefa del café", color=(230, 150, 110), acento=(110, 60, 40)),
+          "periodista": dict(nombre="Periodista", color=(200, 120, 200), acento=(90, 40, 90)),
+          "vecino": dict(nombre="Vecino", color=(160, 200, 140), acento=(60, 90, 50)),
+          "cliente": dict(nombre="Cliente", color=(190, 190, 210), acento=(70, 70, 90)),
+          "instructor": dict(nombre="Instructor", color=(120, 190, 230), acento=(40, 80, 110))}
 POS = {"izq": 250, "izq2": 430, "centro": 640, "der2": 850, "der": 1030, "fuera_izq": -320, "fuera_der": 1600}
 COMANDOS = {"titulo", "fondo", "musica", "ambiente", "efecto", "entra", "sale", "mueve", "pose", "voltea",
             "zoom", "sfx", "pausa", "tarjeta", "temblor", "relampago", "destello", "fundido"}
@@ -290,6 +298,20 @@ class Render:
         self.ep = ep
         self._box = {}
         self.next_title = self._next_title()
+        self.nombre, self.subtitulo = self.serie()
+
+    def serie(self):
+        nombre, sub = SERIE, SUBTITULO
+        cfg = os.path.join(os.path.dirname(self.ep.path), "..", "serie.txt")
+        if os.path.exists(cfg):
+            for l in open(cfg, encoding="utf-8"):
+                if ":" in l:
+                    k, v = l.split(":", 1)
+                    if k.strip() == "nombre":
+                        nombre = v.strip()
+                    elif k.strip() == "subtitulo":
+                        sub = v.strip()
+        return nombre, sub
 
     def _next_title(self):
         d = os.path.dirname(self.ep.path)
@@ -504,13 +526,13 @@ class Render:
             dark = Image.new("RGB", (W, H), (20, 10, 40))
             img = Image.blend(img, dark, 0.45 * k)
             d = ImageDraw.Draw(img)
-            tw = F_TITLE.getlength(SERIE)
+            tw = F_TITLE.getlength(self.nombre)
             y = 150 - (1 - k) * 60
             for dx, dy in ((4, 4), (0, 0)):
-                d.text(((W - tw) / 2 + dx, y + dy), SERIE, font=F_TITLE,
+                d.text(((W - tw) / 2 + dx, y + dy), self.nombre, font=F_TITLE,
                        fill=(40, 20, 60) if dx else (int(255 * k), int(235 * k), int(170 * k)))
-            sw = F_SUB.getlength(SUBTITULO)
-            d.text(((W - sw) / 2, y + 135), SUBTITULO, font=F_SUB, fill=(int(170 * k + 30), int(230 * k), int(255 * k)))
+            sw = F_SUB.getlength(self.subtitulo)
+            d.text(((W - sw) / 2, y + 135), self.subtitulo, font=F_SUB, fill=(int(170 * k + 30), int(230 * k), int(255 * k)))
         if t > 2.0:
             k = ease((t - 2.0) / 0.4)
             d = ImageDraw.Draw(img)
@@ -536,7 +558,7 @@ class Render:
             k2 = ease((u - 0.6) / 0.4)
             s2 = "Gracias por acompañar a Yei, Kitzuki y Kirane" if final else f"Próximo episodio: {self.next_title}"
             d.text(((W - F_SUB.getlength(s2)) / 2, 360), s2, font=F_SUB, fill=(int(200 * k2), int(230 * k2), int(255 * k2)))
-        cred = "Náufragas · Voces: espeak-ng + MBROLA · Música y fondos generados por código"
+        cred = f"{self.nombre.title()} · Voces: espeak-ng + MBROLA · Música y fondos generados por código"
         d.text(((W - F_SMALL.getlength(cred)) / 2, 650), cred, font=F_SMALL, fill=(120, 120, 150))
         x = 0
         for i, who in enumerate(("kitzuki", "yei", "kirane")):
@@ -648,5 +670,5 @@ def _amuleto_sprite():
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     src = args[0]
-    out = args[1] if len(args) > 1 else os.path.join(ROOT, "videos", os.path.basename(src).replace(".txt", ".mp4"))
+    out = args[1] if len(args) > 1 else os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(src))), "videos", os.path.basename(src).replace(".txt", ".mp4"))
     render(src, out, preview="--preview" in sys.argv)

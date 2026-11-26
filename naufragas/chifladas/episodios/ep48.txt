@@ -1,0 +1,16 @@
+titulo: La foto
+
+fondo: sala_noche
+musica: romance
+entra: yei centro sentada
+entra: kitzuki izq sentada
+entra: kirane der sentada
+narrador: Ordenando cajas, encontraron la única foto que les tomó el marinero el día del rescate.
+kirane[triste]: Mira nuestras caras. Flacas, quemadas por el sol...
+kitzuki[timida]: Y sonriendo. Las tres.
+yei[triste]: A veces pienso: ¿y si no hubiéramos naufragado?
+kirane[seria]: Seríamos tres desconocidas.
+kitzuki[timida]: Yo estaría sola leyendo.
+kirane[timida]: Yo estaría peleando con alguien.
+yei[feliz]: Entonces me alegra que el mar nos haya juntado.
+pausa: 1

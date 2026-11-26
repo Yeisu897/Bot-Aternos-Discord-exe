@@ -1,0 +1,16 @@
+titulo: La araña
+
+fondo: cuarto_noche
+musica: tension
+entra: kirane centro
+kirane[miedo]: ¡Kyaaaa!
+entra: yei izq
+entra: kitzuki der
+yei[sorpresa]: ¿Kirane? ¿Qué pasa?
+kirane[miedo]: ¡Una araña! ¡En mi almohada!
+kitzuki[picara]: La que sobrevivió a un huracán le teme a una araña de dos centímetros.
+kirane[enojada]: ¡Tiene ocho patas! ¡Es demasiado!
+kitzuki[lentes]: Es inofensiva. Come mosquitos. Es tu amiga.
+yei[feliz]: Le pondremos nombre. ¡Capitana!
+kirane[cansada]: ...Esta casa necesita menos capitanes.
+pausa: 1

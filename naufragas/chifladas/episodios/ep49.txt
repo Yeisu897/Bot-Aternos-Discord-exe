@@ -1,0 +1,19 @@
+titulo: Navidad chiflada
+
+fondo: sala_noche
+musica: alegre
+entra: yei centro
+entra: kitzuki izq
+entra: kirane der
+yei[risa]: ¡Feliz Navidad! ¡Hora de los regalos!
+kirane[feliz]: Para Kitzuki: lentes de repuesto. Por si hay que hacer fuego.
+kitzuki[risa]: ¡Jajaja! Para Kirane: un libro de cocina para principiantes. Nivel bebé.
+kirane[enojada]: ¡Oye!
+yei[timida]: Y yo les hice algo a mano.
+efecto: brillo
+sfx: brillo
+yei[feliz]: Dos rosas de cristal, como mi amuleto. Ahora las tres tenemos una.
+kitzuki[timida]: ...Yei.
+kirane[timida]: Eres lo peor. Me hiciste llorar en Navidad.
+efecto: nada
+pausa: 1
