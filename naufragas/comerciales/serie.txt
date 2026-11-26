@@ -1,0 +1,4 @@
+nombre: COMERCIALES RANCIOS
+subtitulo: Ahora con 30% más rancio
+modo: anuncio
+telefono: 01-800-RANCIO

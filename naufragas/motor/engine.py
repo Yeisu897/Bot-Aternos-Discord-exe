@@ -16,6 +16,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import audio  # noqa: E402
 import fondos  # noqa: E402
 import fondos_ciudad  # noqa: E402,F401
+import fondos_tv  # noqa: E402,F401
+import dibujo  # noqa: E402
 import tts  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -58,9 +60,18 @@ EXTRAS = {"abuela": dict(nombre="Abuela Marina", color=(240, 170, 190), acento=(
           "vecino": dict(nombre="Vecino", color=(160, 200, 140), acento=(60, 90, 50)),
           "cliente": dict(nombre="Cliente", color=(190, 190, 210), acento=(70, 70, 90)),
           "instructor": dict(nombre="Instructor", color=(120, 190, 230), acento=(40, 80, 110))}
+for _pid, _s in dibujo.PERSONAJES.items():
+    _h = int(610 * _s["altura"])
+    CHARS[_pid] = dict(nombre=_s["nombre"], color=_s["color"], acento=_s["c1"], defecto="normal", dibujado=True,
+                       poses=dict(base=_h, brazos=_h, senala=_h))
+    ALIAS[_pid] = {"risa": "feliz", "picara": "feliz", "sonrojada": "feliz", "nerviosa": "sorpresa", "miedo": "sorpresa",
+                   "cansada": "triste", "preocupada": "triste", "avergonzada": "triste", "molesta": "enojada",
+                   "timida": "normal", "seria": "normal", "pensativa": "normal", "lentes": "normal"}
+EXTRAS["locutor"] = dict(nombre="Locutor", color=(255, 220, 60), acento=(120, 90, 0))
 POS = {"izq": 250, "izq2": 430, "centro": 640, "der2": 850, "der": 1030, "fuera_izq": -320, "fuera_der": 1600}
 COMANDOS = {"titulo", "fondo", "musica", "ambiente", "efecto", "entra", "sale", "mueve", "pose", "voltea",
-            "zoom", "sfx", "pausa", "tarjeta", "temblor", "relampago", "destello", "fundido"}
+            "zoom", "sfx", "pausa", "tarjeta", "temblor", "relampago", "destello", "fundido",
+            "cartel", "banda", "producto"}
 
 
 def ease(u):
@@ -72,11 +83,16 @@ def ease(u):
 _sprites = {}
 
 
-def sprite(who, pose, tinte, dim=False, flip=False):
-    key = (who, pose, tinte, dim, flip)
+def sprite(who, pose, tinte, dim=False, flip=False, expr=None, habla=False):
+    key = (who, pose, tinte, dim, flip, expr, habla)
     if key in _sprites:
         return _sprites[key]
-    path = os.path.join(ROOT, "assets", "chars", who, pose + ".png")
+    if CHARS[who].get("dibujado"):
+        e = ALIAS[who].get(expr, expr) if expr else "normal"
+        e = e if e in dibujo.EXPRS else "normal"
+        path = os.path.join(dibujo.generar(who), f"{pose}__{e}{'_habla' if habla else ''}.png")
+    else:
+        path = os.path.join(ROOT, "assets", "chars", who, pose + ".png")
     im = Image.open(path).convert("RGBA")
     h = CHARS[who]["poses"].get(pose, 600)
     im = im.resize((int(im.width * h / im.height), h), Image.LANCZOS)
@@ -101,6 +117,8 @@ def retrato(who, expr, size=190):
     if key in _portraits:
         return _portraits[key]
     base = os.path.join(ROOT, "assets", "chars", who, "retrato")
+    if CHARS[who].get("dibujado"):
+        base = os.path.join(dibujo.generar(who), "retrato")
     expr = ALIAS.get(who, {}).get(expr, expr)
     path = os.path.join(base, f"{expr}.png")
     if not os.path.exists(path):
@@ -130,6 +148,17 @@ def wrap(text, font, width):
     return lines
 
 
+def leer_serie(path):
+    cfg = dict(nombre=SERIE, subtitulo=SUBTITULO, modo="serie")
+    f = os.path.join(os.path.dirname(os.path.abspath(path)), "..", "serie.txt")
+    if os.path.exists(f):
+        for l in open(f, encoding="utf-8"):
+            if ":" in l:
+                k, v = l.split(":", 1)
+                cfg[k.strip()] = v.strip()
+    return cfg
+
+
 # ------------------------------------------------------------------ guion -> línea de tiempo
 class Episodio:
     def __init__(self, path):
@@ -142,15 +171,23 @@ class Episodio:
         self.lines, self.cards = [], []
         self.voices, self.sfx, self.music, self.amb, self.fades = [], [], [], [], []
         self.barco_t0 = None
+        self.carteles, self.bandas, self.productos = [], [], []
+        self.cfg = leer_serie(path)
+        self.anuncio = self.cfg.get("modo") == "anuncio"
+        self.INTRO = 1.8 if self.anuncio else INTRO
+        self.OUTRO = 3.2 if self.anuncio else OUTRO
         self._build()
 
     def ev(self, who, t, act, *args):
         self.chars.setdefault(who, []).append((t, act, args))
 
     def _build(self):
-        t = INTRO
-        self.music.append((0.0, "tema"))
-        self.sfx.append((1.3, "brillo"))
+        t = self.INTRO
+        if not self.anuncio:
+            self.music.append((0.0, "tema"))
+            self.sfx.append((1.3, "brillo"))
+        else:
+            self.sfx.append((0.1, "pop"))
         cur_fx = set()
         on_stage = {}
         with open(self.path, encoding="utf-8") as f:
@@ -223,6 +260,11 @@ class Episodio:
             elif cmd == "relampago":
                 self.flashes.append(t)
                 self.sfx.append((t + 0.1, "trueno"))
+            elif cmd in ("cartel", "banda", "producto"):
+                txt = None if arg.strip().lower() == "nada" else arg.strip()
+                {"cartel": self.carteles, "banda": self.bandas, "producto": self.productos}[cmd].append((t, txt))
+                if cmd == "cartel" and txt:
+                    self.sfx.append((t, "pop"))
             elif cmd == "destello":
                 self.flashes.append(t)
             elif cmd == "fundido":
@@ -230,8 +272,11 @@ class Episodio:
                 t += 0.8
         t += 0.5
         self.body_end = t
-        self.total = t + OUTRO
-        self.music.append((self.body_end, "tema"))
+        self.total = t + self.OUTRO
+        if not self.anuncio:
+            self.music.append((self.body_end, "tema"))
+        else:
+            self.sfx.append((self.body_end + 0.2, "telefono"))
         self.amb.append((self.body_end, []))
 
     # -------------------------------------------------------------- consulta de estado
@@ -285,6 +330,22 @@ class Episodio:
         st["alpha"] = st["a0"] + (st["a1"] - st["a0"]) * u
         return st
 
+    def expr_at(self, who, t):
+        e = None
+        for ln in self.lines:
+            if ln["t0"] > t:
+                break
+            if ln["who"] == who:
+                e = ln["expr"]
+        return e
+
+    def ultimo(self, lista, t):
+        v, tv = None, -10
+        for tt, x in lista:
+            if tt <= t:
+                v, tv = x, tt
+        return v, tv
+
     def line_at(self, t):
         for i, ln in enumerate(self.lines):
             if ln["t0"] <= t < ln["t1"]:
@@ -301,6 +362,7 @@ class Render:
         self.nombre, self.subtitulo = self.serie()
 
     def serie(self):
+        return self.ep.cfg["nombre"], self.ep.cfg["subtitulo"]
         nombre, sub = SERIE, SUBTITULO
         cfg = os.path.join(os.path.dirname(self.ep.path), "..", "serie.txt")
         if os.path.exists(cfg):
@@ -337,6 +399,9 @@ class Render:
         if meta.get("fuego") and "noche" in cur and "apagado" not in fx:
             tinte = (0.85, 0.68, 0.62)
         tinte = tuple(round(c, 2) for c in tinte)
+        prod, tp = ep.ultimo(ep.productos, t)
+        if prod:
+            self.producto(img, prod, t, tp)
         if show_chars:
             idx, ln = ep.line_at(t)
             speaker = ln["who"] if ln else None
@@ -346,7 +411,12 @@ class Render:
                 if st["alpha"] <= 0.01:
                     continue
                 dim = speaker is not None and speaker in CHARS and speaker != who
-                sp = sprite(who, st["pose"], tinte, dim, st["flip"])
+                expr = habla = None
+                if CHARS[who].get("dibujado"):
+                    expr = ep.expr_at(who, t)
+                    habla = bool(ln and speaker == who and ln["t0"] + 0.15 <= t < ln["t0"] + 0.15 + ln["dur"]
+                                 and int(t * 9) % 2 == 0)
+                sp = sprite(who, st["pose"], tinte, dim, st["flip"], expr, habla)
                 bob = 2.5 * math.sin(t * 2.1 + hash(who) % 7)
                 if ln and speaker == who and t - ln["t0"] < 0.35:
                     bob -= 10 * math.sin(math.pi * (t - ln["t0"]) / 0.35)
@@ -506,6 +576,8 @@ class Render:
 
     # ---------------------------------------------------------- intro / outro
     def intro(self, t):
+        if self.ep.anuncio:
+            return anuncio_intro(self, t)
         img = self.bg_layer("playa_atardecer", t + 20)
         for i, (who, x) in enumerate((("kitzuki", 300), ("yei", 640), ("kirane", 980))):
             t0 = 0.1 + i * 0.2
@@ -542,11 +614,13 @@ class Render:
                                 outline=(int(230 * k), int(200 * k), int(120 * k)), width=3)
             d.text(((W - F_SUB.getlength(s1)) / 2, 440), s1, font=F_SUB, fill=(int(255 * k), int(230 * k), int(170 * k)))
             d.text(((W - F_SUB.getlength(s2)) / 2, 495), s2, font=F_SUB, fill=(int(255 * k),) * 3)
-        if t > INTRO - 0.4:
-            img = Image.blend(img, Image.new("RGB", (W, H)), ease((t - (INTRO - 0.4)) / 0.4))
+        if t > self.ep.INTRO - 0.4:
+            img = Image.blend(img, Image.new("RGB", (W, H)), ease((t - (self.ep.INTRO - 0.4)) / 0.4))
         return img
 
     def outro(self, t):
+        if self.ep.anuncio:
+            return anuncio_outro(self, t)
         u = t - self.ep.body_end
         img = Image.new("RGB", (W, H), (10, 8, 22))
         d = ImageDraw.Draw(img)
@@ -564,26 +638,167 @@ class Render:
         for i, who in enumerate(("kitzuki", "yei", "kirane")):
             p = retrato(who, {"kitzuki": "picara", "yei": "risa", "kirane": "feliz"}[who], 120)
             img.paste(p, (W // 2 - 200 + i * 140, 470), p)
-        if u > OUTRO - 0.5:
-            img = Image.blend(img, Image.new("RGB", (W, H)), ease((u - (OUTRO - 0.5)) / 0.5))
+        if u > self.ep.OUTRO - 0.5:
+            img = Image.blend(img, Image.new("RGB", (W, H)), ease((u - (self.ep.OUTRO - 0.5)) / 0.5))
         return img
 
     def frame(self, t):
         ep = self.ep
-        if t < INTRO:
+        if t < ep.INTRO:
             return self.intro(t)
         if t >= ep.body_end:
             return self.outro(t)
         img = self.scene(t)
         img = self.camera(img, t)
+        fx = ep.fx_at(t)
+        if "byn" in fx:
+            img = img.convert("L").convert("RGB")
         img = self.flash(img, t)
+        img = self.carteles(img, t)
         img = self.dialog(img, t)
         img = self.card(img, t)
-        if t - INTRO < 0.5:
-            img = Image.blend(Image.new("RGB", (W, H)), img, ease((t - INTRO) / 0.5))
+        if "vhs" in fx:
+            img = vhs(img, t)
+        if t - ep.INTRO < 0.5:
+            img = Image.blend(Image.new("RGB", (W, H)), img, ease((t - ep.INTRO) / 0.5))
         if ep.body_end - t < 0.8:
             img = Image.blend(Image.new("RGB", (W, H)), img, ease((ep.body_end - t) / 0.8))
         return img
+
+
+# ------------------------------------------------------------------ comerciales
+F_BIG = FONT("NotoSans-Bold.ttf", 64)
+F_MED = FONT("NotoSans-Bold.ttf", 40)
+F_BURST = FONT("ComicNeue-Bold.otf", 40)
+F_BURST_S = FONT("ComicNeue-Bold.otf", 31)
+_vhs = {}
+
+
+def vhs(img, t):
+    if "lineas" not in _vhs:
+        lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(lay)
+        for y in range(0, H, 3):
+            d.line([(0, y), (W, y)], fill=(0, 0, 0, 40))
+        _vhs["lineas"] = lay
+    img = img.convert("RGBA")
+    r, g, b, a = img.split()
+    r = r.transform(img.size, Image.AFFINE, (1, 0, -3, 0, 1, 0))
+    img = Image.merge("RGBA", (r, g, b, a))
+    img.alpha_composite(_vhs["lineas"])
+    d = ImageDraw.Draw(img)
+    rnd = int(t * 24) % 97
+    y = (rnd * 37) % H
+    d.rectangle((0, y, W, y + 4), fill=(255, 255, 255, 60))
+    d.text((40, 80), "PLAY >", font=F_MED, fill=(240, 240, 240))
+    d.text((W - 300, 80), "SP 0:%02d:%02d" % (int(t) // 60, int(t) % 60), font=F_MED, fill=(240, 240, 240))
+    return img.convert("RGB")
+
+
+def estrella(cx, cy, r1, r2, n, rot):
+    pts = []
+    for i in range(n * 2):
+        a = rot + i * math.pi / n
+        r = r1 if i % 2 == 0 else r2
+        pts.append((cx + math.cos(a) * r, cy + math.sin(a) * r))
+    return pts
+
+
+def _carteles(self, img, t):
+    ep = self.ep
+    txt, tc = ep.ultimo(ep.carteles, t)
+    banda, tb = ep.ultimo(ep.bandas, t)
+    if not txt and not banda:
+        return img
+    out = img.convert("RGBA")
+    d = ImageDraw.Draw(out)
+    if banda:
+        d.rectangle((0, 0, W, 64), fill=(220, 20, 40))
+        d.rectangle((0, 60, W, 68), fill=(255, 220, 0))
+        msg = ("   •  " + banda + "  •   ") * 4
+        tw = F_MED.getlength(msg) / 4
+        off = (t - tb) * 160 % tw
+        d.text((-off, 6), msg, font=F_MED, fill=(255, 255, 255))
+    if txt:
+        k = min(1.0, (t - tc) / 0.25)
+        s = (0.4 + 0.6 * k) * (1 + 0.05 * math.sin(t * 8))
+        cx, cy = 1150, 230 if banda else 175
+        d.polygon(estrella(cx, cy, 125 * s, 92 * s, 14, t * 0.6), fill=(255, 220, 0), outline=(200, 30, 30))
+        d.polygon(estrella(cx, cy, 106 * s, 80 * s, 14, -t * 0.4), fill=(255, 60, 60))
+        lines = wrap(txt, F_BURST_S, 160)
+        y = cy - len(lines) * 17
+        for l in lines:
+            lw = F_BURST_S.getlength(l)
+            d.text((cx - lw / 2 + 2, y + 2), l, font=F_BURST_S, fill=(80, 0, 0))
+            d.text((cx - lw / 2, y), l, font=F_BURST_S, fill=(255, 255, 200))
+            y += 34
+    return out.convert("RGB")
+
+
+def _producto(self, img, nombre, t, tp):
+    k = ease((t - tp) / 0.5)
+    d = ImageDraw.Draw(img)
+    cx, base = 640, 470
+    d.polygon([(cx - 120, base + 250), (cx + 120, base + 250), (cx + 90, base + 60), (cx - 90, base + 60)], fill=(230, 230, 240), outline=(120, 120, 140))
+    d.ellipse((cx - 95, base + 40, cx + 95, base + 80), fill=(250, 250, 255), outline=(120, 120, 140))
+    y = base + 55 - int(200 * k) + int(6 * math.sin(t * 2.5))
+    bw = 170
+    col = [(255, 200, 40), (60, 200, 255), (255, 90, 160), (120, 230, 90)][sum(map(ord, nombre)) % 4]
+    d.rounded_rectangle((cx - bw / 2, y - 220, cx + bw / 2, y), 16, fill=col, outline=(40, 30, 40), width=4)
+    d.rounded_rectangle((cx - bw / 2 + 12, y - 170, cx + bw / 2 - 12, y - 60), 10, fill=(255, 255, 255))
+    lines = wrap(nombre, F_TEXT, bw - 30)
+    yy = y - 160
+    for l in lines[:3]:
+        lw = F_TEXT.getlength(l)
+        d.text((cx - lw / 2, yy), l, font=F_TEXT, fill=(40, 30, 40))
+        yy += 34
+    for i in range(6):
+        a = t * 2 + i * math.pi / 3
+        sx, sy = cx + math.cos(a) * 130, y - 110 + math.sin(a) * 140
+        d.line([(sx - 10, sy), (sx + 10, sy)], fill=(255, 255, 255), width=3)
+        d.line([(sx, sy - 10), (sx, sy + 10)], fill=(255, 255, 255), width=3)
+
+
+def anuncio_intro(self, t):
+    img = Image.new("RGB", (W, H))
+    d = ImageDraw.Draw(img)
+    cols = [(192, 192, 192), (192, 192, 0), (0, 192, 192), (0, 192, 0), (192, 0, 192), (192, 0, 0), (0, 0, 192)]
+    for i, c in enumerate(cols):
+        d.rectangle((i * W / 7, 0, (i + 1) * W / 7, H * 0.7), fill=c)
+    d.rectangle((0, H * 0.7, W, H), fill=(20, 20, 30))
+    s = "• " + self.ep.cfg["nombre"] + " •"
+    d.rectangle((W / 2 - 360, H / 2 - 70, W / 2 + 360, H / 2 + 70), fill=(0, 0, 0))
+    d.text(((W - F_BIG.getlength(s)) / 2, H / 2 - 45), s, font=F_BIG, fill=(255, 255, 255))
+    sub = self.ep.titulo
+    d.text(((W - F_SUB.getlength(sub)) / 2, H * 0.78), sub, font=F_SUB, fill=(255, 230, 120))
+    return vhs(img, t)
+
+
+def anuncio_outro(self, t):
+    u = t - self.ep.body_end
+    img = Image.new("RGB", (W, H), (20, 0, 60))
+    d = ImageDraw.Draw(img)
+    for i in range(16):
+        a = i * math.pi / 8 + u * 0.5
+        d.polygon([(W / 2, H / 2), (W / 2 + math.cos(a) * 1500, H / 2 + math.sin(a) * 1500),
+                   (W / 2 + math.cos(a + 0.2) * 1500, H / 2 + math.sin(a + 0.2) * 1500)],
+                  fill=(60, 0, 120) if i % 2 else (90, 10, 160))
+    s = "¡LLAME YA!"
+    k = 1 + 0.06 * math.sin(u * 10)
+    fb = FONT("NotoSans-Bold.ttf", int(110 * k))
+    d.text(((W - fb.getlength(s)) / 2 + 5, 155), s, font=fb, fill=(120, 0, 0))
+    d.text(((W - fb.getlength(s)) / 2, 150), s, font=fb, fill=(255, 230, 0))
+    tel = self.ep.cfg.get("telefono", "01-800-RANCIO")
+    d.text(((W - F_BIG.getlength(tel)) / 2, 320), tel, font=F_BIG, fill=(255, 255, 255))
+    leg = "*Producto ficticio. Los resultados no son reales. Ningún televidente fue estafado en la producción."
+    d.text(((W - F_SMALL.getlength(leg)) / 2, 640), leg, font=F_SMALL, fill=(200, 180, 230))
+    if u > self.ep.OUTRO - 0.5:
+        img = Image.blend(img, Image.new("RGB", (W, H)), ease((u - (self.ep.OUTRO - 0.5)) / 0.5))
+    return vhs(img, t)
+
+
+Render.carteles = _carteles
+Render.producto = _producto
 
 
 # ------------------------------------------------------------------ audio

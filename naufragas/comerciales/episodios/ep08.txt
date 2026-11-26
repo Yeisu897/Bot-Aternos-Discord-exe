@@ -1,0 +1,16 @@
+titulo: Cereal Choco Crujidos
+
+fondo: cocina
+musica: alegre
+efecto: vhs
+entra: rigoberto centro
+rigoberto[triste]: Mamá, no quiero desayunar. El desayuno es aburrido.
+entra: lupita izq brazos
+lupita[feliz]: ¡Pero hijo, prueba Choco Crujidos!
+producto: Cereal Choco Crujidos
+cartel: ¡Con vitaminas probablemente!
+rigoberto[sorpresa]: ¡Crujen tan fuerte que no oigo nada!
+lupita[feliz]: ¡¿Qué?!
+rigoberto[sorpresa]: ¡¿Qué?!
+locutor: Choco Crujidos. Parte de un desayuno completo. El resto lo pone usted.
+pausa: 1

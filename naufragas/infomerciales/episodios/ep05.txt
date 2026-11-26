@@ -1,0 +1,26 @@
+titulo: Sartén Resbalín
+
+fondo: cocina
+musica: tension
+efecto: vhs byn
+entra: rigoberto centro
+locutor: ¿Su sartén se pega más que su suegra?
+rigoberto[enojada]: ¡El huevo se pegó! ¡Para siempre! ¡Es parte de la familia ahora!
+fondo: estudio
+efecto: vhs
+musica: alegre
+entra: chucho der senala
+chucho[feliz]: ¡Rigoberto, amigo! ¡Conoce la Sartén Resbalín!
+producto: Sartén Resbalín
+cartel: ¡Nada se pega!
+chucho[feliz]: ¡Antiadherente nivel extremo! ¡Nada se pega!
+rigoberto[sorpresa]: ¡El huevo salió volando!
+sfx: golpe
+chucho[feliz]: ¡Nada se pega!
+rigoberto[sorpresa]: ¡La comida tampoco se queda! ¡Se escapa del plato!
+chucho[seria]: Eso es un detalle técnico.
+rigoberto[enojada]: ¡Llevo tres días sin comer!
+chucho[feliz]: ¡Pero sin lavar sartenes!
+banda: Sartén Resbalín - No incluye comida que se quede
+locutor: Sartén Resbalín. Úsela con pegamento.
+pausa: 1

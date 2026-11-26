@@ -1,0 +1,26 @@
+titulo: Trapex, el trapeador milagroso
+
+fondo: cocina
+musica: tension
+efecto: vhs byn
+entra: cleta centro
+cleta[triste]: Toda mi vida trapeando. Setenta años trapeando.
+cleta[enojada]: ¡Y el piso sigue sucio! ¡Es un complot!
+fondo: estudio
+efecto: vhs
+musica: alegre
+entra: lupita der brazos
+lupita[feliz]: ¡Doña Cleta! ¡Conozca Trapex, el trapeador milagroso!
+producto: Trapex
+cartel: ¡Absorbe 100 veces su peso!
+lupita[feliz]: ¡Absorbe cien veces su peso en agua!
+cleta[sorpresa]: ¿Y luego qué?
+lupita[seria]: Luego pesa cien veces más. No lo puede levantar nadie.
+cleta[enojada]: ¡¿Entonces para qué sirve?!
+lupita[feliz]: ¡Para decorar! ¡Viene en tres colores!
+cartel: ¡3 colores!
+lupita[feliz]: ¡Rosa, rosa claro, y rosa!
+banda: Trapex - El trapeador que no trapea - Llame ya
+cleta[cansada]: Ay, me lo llevo. Ya estoy vieja para discutir.
+locutor: Trapex. Su piso no quedará limpio, pero sí rosa.
+pausa: 1

@@ -1,0 +1,24 @@
+titulo: Peinatrón Eléctrico
+
+fondo: estudio_retro
+musica: accion
+efecto: vhs
+entra: lupita centro brazos
+lupita[feliz]: ¡Peinados de salón, en casa, en un segundo! ¡Con el Peinatrón!
+producto: Peinatrón
+cartel: ¡Mil voltios de estilo!
+entra: patino der
+patino[seria]: Funciona con mil voltios de pura ciencia.
+lupita[feliz]: ¡Doctor, pruébelo!
+patino[sorpresa]: Pero yo casi no tengo pelo...
+sfx: explosion
+relampago
+temblor
+patino[sorpresa]: ...
+lupita[sorpresa]: ¡Doctor! ¡Le salió un afro!
+patino[feliz]: ¡Fascinante! ¡Y siento los colores!
+cartel: ¡Pero espere!
+lupita[feliz]: ¡Si llama ahora, le regalamos un extintor!
+banda: Peinatrón - Use guantes de goma
+locutor: Peinatrón. No usar en la bañera. Ni cerca de la bañera. Ni pensar en la bañera.
+pausa: 1

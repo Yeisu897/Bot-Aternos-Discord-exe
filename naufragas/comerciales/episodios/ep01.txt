@@ -1,0 +1,17 @@
+titulo: Refresco Burbujón
+
+fondo: estudio_retro
+musica: accion
+efecto: vhs
+entra: brayan centro brazos
+brayan[feliz]: ¿Tienes sed de aventura? ¿Sed de adrenalina? ¿Sed de... sed?
+producto: Refresco Burbujón
+cartel: ¡Ahora con más burbujas!
+mueve: brayan izq
+brayan[sorpresa]: ¡Burbujón! ¡Tan burbujeante que te hace eructar el himno nacional!
+entra: rigoberto der
+rigoberto[feliz]: Yo tomé uno y floté tres días.
+cartel: ¡Sabor a refresco!
+locutor: Burbujón. Sabor a refresco. Hecho con agua, burbujas y otras cosas.
+brayan[feliz]: ¡Burbujón! ¡Burbujéate!
+pausa: 1

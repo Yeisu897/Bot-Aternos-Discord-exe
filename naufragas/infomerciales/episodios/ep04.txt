@@ -1,0 +1,23 @@
+titulo: Faja Moldeadora Exprés
+
+fondo: estudio_dorado
+musica: romance
+efecto: vhs
+entra: lupita centro
+lupita[feliz]: Chicas, ¿quieren una figura de revista en solo cinco segundos?
+producto: Faja Exprés
+cartel: ¡Resultados inmediatos!
+lupita[feliz]: ¡Con la Faja Moldeadora Exprés, usted se ve increíble!
+entra: cleta izq
+cleta[sorpresa]: ¿Y se puede respirar con eso puesto?
+lupita[seria]: Respirar es opcional, Doña Cleta.
+cleta[enojada]: ¡No, mijita, no es opcional!
+entra: patino der
+patino[seria]: Como científico, recomiendo respirar al menos una vez al día.
+lupita[feliz]: ¡Y miren! ¡Brilla en la oscuridad!
+cleta[sorpresa]: ¿Por qué brillaría una faja en la oscuridad?
+lupita[timida]: ...Para encontrar a la persona desmayada.
+cartel: ¡Pero espere! ¡Hay más!
+banda: Faja Exprés - Talla única para nadie
+locutor: Faja Exprés. Consulte a su médico. Y a su pulmón.
+pausa: 1

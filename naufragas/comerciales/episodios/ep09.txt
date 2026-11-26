@@ -1,0 +1,19 @@
+titulo: Telenovela Lágrimas de Mango
+
+fondo: estudio_dorado
+musica: triste
+efecto: vhs
+entra: lupita izq
+entra: chucho der
+locutor: Esta noche, en el estreno más esperado del año...
+lupita[triste]: ¡Federico Alberto! ¡Dime la verdad!
+chucho[seria]: Lucrecia María... yo no soy quien crees.
+zoom: 1.3 der
+chucho[seria]: Soy... ¡tu primo segundo político por parte de madrina!
+sfx: sting
+temblor
+lupita[sorpresa]: ¡Nooooo!
+zoom: 1
+cartel: ¡Estreno!
+locutor: Lágrimas de Mango. Todas las noches. Doscientos capítulos. Mismo final.
+pausa: 1

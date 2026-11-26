@@ -1,0 +1,27 @@
+titulo: Almohada Ronquicalm
+
+fondo: cuarto_noche
+musica: misterio
+efecto: vhs byn
+entra: cleta izq
+entra: rigoberto der
+locutor: ¿Su pareja ronca como un tractor?
+cleta[enojada]: ¡Rigoberto! ¡Hace cuarenta años que no duermo!
+rigoberto[sorpresa]: ¡Yo no ronco! ¡Es el refrigerador!
+fondo: estudio_dorado
+efecto: vhs
+musica: calma
+entra: patino centro
+patino[seria]: Presentamos Ronquicalm. La almohada con música relajante.
+producto: Ronquicalm
+cartel: ¡Duerma como un bebé!
+patino[seria]: Cuando detecta un ronquido, toca una canción de cuna.
+cleta[feliz]: ¡Qué maravilla!
+patino[timida]: A todo volumen. Con trompetas.
+sfx: bocina
+temblor
+cleta[sorpresa]: ¡¿Y así cómo voy a dormir?!
+rigoberto[feliz]: Yo duermo perfecto.
+banda: Ronquicalm - Ahora con modo mariachi
+locutor: Ronquicalm. Porque si usted no duerme, nadie duerme.
+pausa: 1

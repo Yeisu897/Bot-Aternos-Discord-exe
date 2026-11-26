@@ -1,0 +1,34 @@
+titulo: Cortamagic 3000
+
+fondo: cocina
+musica: tension
+efecto: vhs byn
+entra: rigoberto centro
+locutor: ¿Cansado de cuchillos que no cortan?
+rigoberto[enojada]: ¡Este tomate no se deja! ¡Maldito tomate!
+sfx: golpe
+temblor
+rigoberto[triste]: Ahora tengo salsa en el techo.
+locutor: ¡Hay una mejor manera!
+fondo: estudio
+efecto: vhs
+musica: alegre
+sale: rigoberto
+entra: chucho centro brazos
+chucho[feliz]: ¡Amigos! ¡Les presento el Cortamagic tres mil!
+producto: Cortamagic 3000
+cartel: ¡Corta todo!
+mueve: chucho izq
+chucho[feliz]: ¡Corta tomates! ¡Corta pan! ¡Corta zapatos!
+entra: lupita der
+lupita[sorpresa]: ¿Para qué querría cortar zapatos?
+chucho[seria]: Eso no es asunto nuestro, Lupita.
+sfx: golpe
+chucho[sorpresa]: ¡Y miren! ¡Cortó la mesa en dos!
+lupita[sorpresa]: ¡Esa mesa era del estudio!
+cartel: ¡Pero espere! ¡Hay más!
+chucho[feliz]: ¡Pero espere, hay más! ¡Si llama en los próximos diez minutos, le regalamos otro Cortamagic!
+lupita[feliz]: ¡Para que corte el primero!
+banda: Solo pague envío y manejo - 01-800-LLAME-YA
+locutor: Cortamagic tres mil. No apto para menores, adultos ni mesas.
+pausa: 1

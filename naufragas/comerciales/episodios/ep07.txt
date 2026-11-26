@@ -1,0 +1,17 @@
+titulo: Perfume Aroma de Galán
+
+fondo: estudio_dorado
+musica: romance
+efecto: vhs
+entra: chucho centro
+locutor: Aroma de Galán. La fragancia del hombre de verdad.
+chucho[seria]: Hola. Soy un galán. Lo sé porque lo dice mi perfume.
+producto: Aroma de Galán
+cartel: ¡Huele a éxito!
+entra: lupita der
+lupita[sorpresa]: ¡¿Qué es ese olor?!
+chucho[feliz]: Es Aroma de Galán, preciosa.
+lupita[enojada]: ¡Huele a cebolla con loción de abuelo!
+chucho[feliz]: Exacto. Huele a tradición.
+locutor: Aroma de Galán. Cuando no te importa lo que piensen.
+pausa: 1

@@ -1,0 +1,30 @@
+titulo: Abdominator Turbo
+
+fondo: sala
+musica: triste
+efecto: vhs byn
+entra: rigoberto centro
+locutor: ¿Su panza no lo deja ver sus pies?
+rigoberto[triste]: Hace tres años que no me veo los zapatos.
+rigoberto[triste]: Ni sé si sigo usando zapatos.
+fondo: estudio_retro
+efecto: vhs
+musica: accion
+sale: rigoberto
+entra: brayan centro brazos
+brayan[feliz]: ¡Oye, tú! ¡Sí, tú, el del sillón! ¡Deja esas papitas!
+producto: Abdominator Turbo
+cartel: ¡Solo 3 minutos al día!
+brayan[feliz]: ¡Con el Abdominator Turbo, solo tres minutos al día!
+brayan[feliz]: ¡Yo lo uso tres minutos y luego entreno ocho horas en el gimnasio!
+entra: patino der
+patino[seria]: Como científico, puedo confirmar que esa máquina existe.
+brayan[feliz]: ¡Rigoberto, cuéntales!
+entra: rigoberto izq brazos
+rigoberto[feliz]: ¡Con el Abdominator bajé veinte kilos!
+rigoberto[timida]: Bueno, el Abdominator pesaba veinte kilos y lo vendí.
+cartel: ¡Pero espere!
+brayan[feliz]: ¡Y si llama ahora, le regalamos una toalla motivacional!
+banda: Tres pagos de 99.99 - Llame ya
+locutor: Abdominator Turbo. Resultados no garantizados. Ni probables.
+pausa: 1

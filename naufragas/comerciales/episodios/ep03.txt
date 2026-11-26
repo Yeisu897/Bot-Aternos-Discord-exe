@@ -1,0 +1,16 @@
+titulo: Pan Esponjosito
+
+fondo: cocina
+musica: calma
+efecto: vhs
+entra: cleta centro
+cleta[feliz]: Mis nietos solo comen pan Esponjosito.
+cleta[feliz]: Es tan suavecito que no hace falta masticarlo.
+cleta[timida]: Ni tragarlo. Se disuelve solo. Como mis ahorros.
+producto: Pan Esponjosito
+cartel: ¡Pan de pan!
+entra: rigoberto der
+rigoberto[sorpresa]: ¡Abuela, el pan se fue volando por la ventana!
+cleta[seria]: Es que es muy esponjosito, mijo.
+locutor: Pan Esponjosito. Más aire que pan.
+pausa: 1

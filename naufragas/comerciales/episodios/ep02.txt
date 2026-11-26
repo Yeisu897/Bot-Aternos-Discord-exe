@@ -1,0 +1,19 @@
+titulo: Champú Melena de León
+
+fondo: estudio
+musica: tension
+efecto: vhs byn
+entra: rigoberto centro
+rigoberto[triste]: Antes, mi pelo se caía. Se caía en la sopa. Se caía en el autobús.
+rigoberto[triste]: Un día se cayó entero y se fue caminando.
+efecto: vhs
+musica: alegre
+cartel: ¡Nueva fórmula!
+entra: lupita der senala
+lupita[feliz]: ¡No más, Rigoberto! ¡Prueba Melena de León!
+producto: Champú Melena de León
+mueve: rigoberto izq
+pose: rigoberto brazos
+rigoberto[feliz]: ¡Me salió pelo! ¡En los codos, pero me salió!
+locutor: Melena de León. No probado en leones. Ni en humanos.
+pausa: 1

@@ -1,0 +1,17 @@
+titulo: Mueblería El Sillonazo
+
+fondo: estudio
+musica: accion
+efecto: vhs
+banda: ¡¡¡REMATE TOTAL!!! - Mueblería El Sillonazo
+entra: chucho centro brazos
+chucho[enojada]: ¡¡¡AMIGOS!!! ¡¡¡SE VOLVIÓ LOCO EL SILLONAZO!!!
+cartel: ¡Precios de locura!
+chucho[enojada]: ¡¡¡SILLONES A PRECIO DE SILLA!!! ¡¡¡SILLAS A PRECIO DE BANCO!!!
+entra: cleta izq
+cleta[sorpresa]: ¿Y por qué grita tanto este señor?
+chucho[enojada]: ¡¡¡PORQUE LOS PRECIOS ESTÁN BAJÍSIMOS!!!
+cleta[enojada]: ¡Yo no estoy sorda!
+chucho[timida]: ...Perdón. Los precios están bajísimos.
+locutor: El Sillonazo. Donde los muebles se venden solos. Literalmente, no hay vendedores.
+pausa: 1

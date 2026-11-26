@@ -1,0 +1,19 @@
+titulo: Detergente Blancurris
+
+fondo: sala
+musica: tension
+efecto: vhs byn
+entra: lupita centro
+lupita[triste]: ¡Oh, no! ¡Una mancha de mole en mi vestido de gala!
+lupita[triste]: ¡Mi vida está arruinada! ¡Arruinada!
+efecto: vhs
+musica: alegre
+entra: patino der senala
+patino[seria]: Señora, como científico le digo: use Blancurris.
+producto: Detergente Blancurris
+cartel: ¡Blanco más blanco!
+pose: lupita brazos
+lupita[sorpresa]: ¡Mi vestido quedó blanco! ¡Pero era rosa!
+patino[feliz]: Blancurris lo deja todo blanco. Todo. Sin excepción.
+locutor: Blancurris. Porque el color está sobrevalorado.
+pausa: 1

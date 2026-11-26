@@ -1,0 +1,4 @@
+nombre: TELETIENDA RANCIA
+subtitulo: Llame ya
+modo: anuncio
+telefono: 01-800-LLAME-YA

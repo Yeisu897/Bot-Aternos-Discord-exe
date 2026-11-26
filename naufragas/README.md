@@ -100,3 +100,17 @@ Fondos nuevos: `sala`, `sala_noche`, `cocina`, `cuarto_noche`, `calle`, `parque`
 `aula`, `piscina`, `feria`. Personajes secundarios (hablan fuera de cuadro): `teo`, `abuela`, `jefa`,
 `profesor`, `periodista`, `vecino`, `cliente`, `instructor`. Efectos nuevos: `timbre`, `ladrido`,
 `explosion`, `aplausos`, `telefono`, `bocinazo`, `pop`.
+
+---
+
+# Comerciales e infomerciales rancios
+
+10 comerciales (`comerciales/`, ~25 s) y 10 infomerciales (`infomerciales/`, ~30-45 s) con un
+elenco original dibujado 100% por código (`motor/dibujo.py`): Don Chucho Ofertas, Lupita Wow,
+Dr. Patiño, Rigoberto, Doña Cleta y Brayan Fitness, más un Locutor en off. Cada personaje tiene
+3 poses (`base`, `brazos`, `senala`), 5 expresiones y boca animada al hablar.
+
+Comandos extra para anuncios: `cartel: ¡Oferta!` (estrella giratoria), `banda: LLAME YA` (cinta
+superior), `producto: Nombre` (producto en pedestal); `nada` los quita. Efectos: `vhs`, `byn`
+(blanco y negro para el "antes"). Fondos: `estudio`, `estudio_retro`, `estudio_dorado`.
+Modo anuncio en `serie.txt` (`modo: anuncio`, `telefono: ...`).

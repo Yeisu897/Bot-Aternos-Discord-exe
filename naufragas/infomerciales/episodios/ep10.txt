@@ -1,0 +1,29 @@
+titulo: El Multiusos 15 en 1
+
+fondo: estudio
+musica: accion
+efecto: vhs
+banda: ¡¡¡GRAN FINAL!!! - El Multiusos 15 en 1
+entra: chucho centro brazos
+chucho[feliz]: ¡Amigos! ¡Hoy, el producto definitivo! ¡El Multiusos quince en uno!
+producto: Multiusos 15 en 1
+cartel: ¡15 en 1!
+mueve: chucho izq
+chucho[feliz]: ¡Es licuadora! ¡Es plancha! ¡Es secadora de pelo! ¡Es radio!
+entra: lupita der
+lupita[sorpresa]: ¡Y también es teléfono!
+entra: brayan izq2 brazos
+brayan[feliz]: ¡Y pesa como una pesa! ¡Hagan bíceps mientras planchan!
+entra: cleta der2
+cleta[sorpresa]: ¿Y cómo se usa?
+chucho[timida]: ...Nadie sabe, señora. Viene sin instrucciones.
+sfx: explosion
+temblor
+lupita[sorpresa]: ¡Se encendió todo al mismo tiempo!
+cartel: ¡Pero espere! ¡Hay más!
+chucho[feliz]: ¡Y si llama en los próximos diez minutos, le regalamos los otros diecinueve productos de esta teletienda!
+patino: Como científico, recomiendo no llamar.
+chucho[enojada]: ¡Doctor!
+banda: 01-800-LLAME-YA - ¡Operadores esperando! (Uno. Se llama Toño.)
+locutor: Gracias por ver Teletienda Rancia. Ningún producto fue probado. Por suerte.
+pausa: 1

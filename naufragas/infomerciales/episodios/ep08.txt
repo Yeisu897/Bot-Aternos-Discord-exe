@@ -1,0 +1,23 @@
+titulo: Crema Eterna Juventud
+
+fondo: estudio_dorado
+musica: romance
+efecto: vhs
+entra: cleta centro
+cleta[seria]: Tengo ochenta y dos años. Y me veo de ochenta y uno.
+cleta[feliz]: Mi secreto: Crema Eterna Juventud.
+producto: Crema Eterna Juventud
+cartel: ¡Un año menos!
+entra: lupita der
+lupita[sorpresa]: ¿Solo un año menos, Doña Cleta?
+cleta[enojada]: ¡Un año es un año, mijita!
+entra: patino izq
+patino[seria]: Fórmula científica con extracto de pepino, baba de caracol y fe.
+lupita[sorpresa]: ¿Y fe?
+patino[seria]: Sobre todo fe.
+cartel: ¡Pero espere! ¡Hay más!
+lupita[feliz]: ¡Si compra dos frascos, se quita dos años!
+cleta[feliz]: ¡Deme cuarenta!
+banda: Eterna Juventud - Los años vuelven, el dinero no
+locutor: Crema Eterna Juventud. Los resultados varían. Normalmente, no hay resultados.
+pausa: 1

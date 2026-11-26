@@ -32,6 +32,13 @@ VOCES = {
     "vecino": dict(voz="mb-es1", vel=150, tono=45, timbre=1.0, vol=1.0),
     "cliente": dict(voz="mb-es1", vel=165, tono=50, timbre=1.03, vol=1.0),
     "instructor": dict(voz="mb-es2", vel=165, tono=45, timbre=1.0, vol=1.0),
+    "chucho": dict(voz="mb-es1", vel=190, tono=62, timbre=1.07, vol=1.0),
+    "lupita": dict(voz="mb-es3", vel=185, tono=60, f0=250, rango=1.7, timbre=1.04, vol=1.0),
+    "patino": dict(voz="mb-es2", vel=135, tono=30, timbre=1.0, vol=1.0),
+    "rigoberto": dict(voz="mb-mx1", vel=150, tono=40, timbre=1.0, vol=1.0),
+    "cleta": dict(voz="mb-es3", vel=125, tono=45, f0=165, rango=0.9, timbre=0.94, vol=1.0),
+    "brayan": dict(voz="mb-mx2", vel=195, tono=65, timbre=1.0, vol=1.0),
+    "locutor": dict(voz="mb-es1", vel=150, tono=25, timbre=0.95, vol=1.0),
     "narrador": dict(voz="mb-es2", vel=140, tono=38, timbre=1.0, vol=0.95),
     "otro": dict(voz="mb-es1", vel=155, tono=45, timbre=1.0, vol=1.0),
 }

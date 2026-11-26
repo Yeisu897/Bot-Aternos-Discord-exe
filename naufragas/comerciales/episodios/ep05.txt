@@ -1,0 +1,15 @@
+titulo: Chicle Mascamás
+
+fondo: estudio_retro
+musica: accion
+efecto: vhs
+entra: brayan izq brazos
+entra: chucho der
+brayan[feliz]: ¡Chicle Mascamás! ¡El sabor dura hasta diez años!
+chucho[sorpresa]: ¡¿Diez años?!
+brayan[feliz]: Yo llevo masticando el mismo desde la primaria.
+producto: Chicle Mascamás
+cartel: ¡Sabor eterno!
+chucho[triste]: Eso explica el olor.
+locutor: Mascamás. Advertencia: no tragar. Ni masticar. Ni abrir el empaque.
+pausa: 1

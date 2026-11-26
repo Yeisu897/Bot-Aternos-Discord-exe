@@ -1,0 +1,23 @@
+titulo: Inglés Ya en 3 Días
+
+fondo: aula
+musica: alegre
+efecto: vhs
+entra: patino centro
+patino[seria]: ¿Quiere hablar inglés? ¿En tres días? ¿Sin estudiar? ¿Sin saber nada?
+producto: Inglés Ya
+cartel: ¡Bilingüe en 3 días!
+patino[feliz]: ¡Con el método Inglés Ya, es posible!
+entra: rigoberto der
+rigoberto[feliz]: Yo hice el curso. Ahora soy bilingüe.
+patino[feliz]: Demuéstrelo, Rigoberto.
+rigoberto[feliz]: Jelou. Mai neim is Rigoberto. Ai laik de pizza.
+patino[feliz]: ¡Perfecto! ¡Como nativo!
+entra: lupita izq
+lupita[sorpresa]: ¿De qué país?
+patino[seria]: De... un país muy lejano.
+cartel: ¡Pero espere!
+patino[feliz]: ¡Si llama ahora, le regalamos el curso de francés! Bonyur.
+banda: Inglés Ya - Guan, tu, tri, llame ya
+locutor: Inglés Ya. Tenquiu bery mach.
+pausa: 1

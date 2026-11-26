@@ -1,0 +1,16 @@
+titulo: Seguros Tranquilín
+
+fondo: jardin
+musica: romance
+efecto: vhs
+entra: cleta centro
+cleta[feliz]: A mi edad, una se preocupa por el futuro.
+cleta[feliz]: Por eso contraté Seguros Tranquilín.
+entra: chucho der senala
+chucho[feliz]: ¡Con Tranquilín, si le cae un piano, le pagamos el piano!
+cleta[sorpresa]: ¿Y a mí?
+chucho[seria]: Usted no estaba en la póliza, señora.
+banda: Seguros Tranquilín - Llame ya
+cleta[enojada]: ¡Ladrones!
+locutor: Seguros Tranquilín. Tranquilos nosotros, no usted.
+pausa: 1

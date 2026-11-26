@@ -14,7 +14,7 @@ SFX = {"trueno", "golpe", "chapuzon", "brillo", "sting", "revelacion", "bocina",
        "fuego_on", "comico", "alegria", "caida", "timbre", "ladrido", "explosion", "aplausos",
        "telefono", "bocinazo", "pop"}
 AMB = {"olas", "lluvia", "viento", "selva", "noche", "fuego", "cueva", "barco", "nada"}
-FX = {"lluvia", "niebla", "brillo", "barco", "fuego", "apagado", "noche", "nada"}
+FX = {"lluvia", "niebla", "brillo", "barco", "fuego", "apagado", "noche", "nada", "vhs", "byn"}
 
 problemas = 0
 carpetas = sys.argv[1:] or [os.path.join(ROOT, "episodios")]
@@ -29,7 +29,9 @@ for path in sorted(p for c in carpetas for p in glob.glob(os.path.join(c, "ep*.t
         err = None
         if m and cmd not in engine.COMANDOS:
             expr = m.group(2)
-            if cmd in engine.CHARS and expr:
+            if cmd in engine.CHARS and engine.CHARS[cmd].get("dibujado"):
+                pass
+            elif cmd in engine.CHARS and expr:
                 expr = engine.ALIAS.get(cmd, {}).get(expr, expr)
                 if not os.path.exists(os.path.join(ROOT, "assets", "chars", cmd, "retrato", expr + ".png")):
                     err = f"expresión sin retrato: {cmd}[{expr}]"
